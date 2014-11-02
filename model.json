@@ -1,0 +1,3150 @@
+{
+   "model":[
+        {
+            "menu": [
+                {
+                    "id": 1,
+                    "label": "Accueil",
+                    "url": "christian-osifre.fr"
+                },
+                {
+                    "id": 2,
+                    "label": "Geymnna",
+                    "url": "christian-osifre.fr/geymnna"
+                },
+                {
+                    "id": 3,
+                    "label": "Tapage Nocturne",
+                    "url": "christian-osifre.fr/tapage_nocturne"
+                }
+            ],
+            "geymnna":[
+                {
+                    "menu":[
+                        {
+                            "id": 1,
+                            "label": "Accueil",
+                            "url": "christian-osifre.fr/geymnna"
+                        },
+                        {
+                            "id": 2,
+                            "label": "Créer PJ",
+                            "url": "christian-osifre.fr/geymnna/new"
+                        },
+                        {
+                            "id": 3,
+                            "label": "Connexion",
+                            "url": "christian-osifre.fr/geymnna/connexion"
+                        }
+                    ],
+                    "peuples": [
+                        {
+                            "id": "commun",
+                            "label": "Commun",
+                            "desc": "Tous les peuples",
+                            "img": null,
+                            "caste": [
+                                {
+                                    "id": "vagabond",
+                                    "label": "Vagabond",
+                                    "desc": "...",
+                                    "img": "vagabond",
+                                    "cs": [
+                                        { "id": "res_alcool", "bonus": 2 },
+                                        { "id": "mains_nues", "bonus": 1 }
+                                    ],
+                                    "talents": [
+                                        { "id": "survie" },
+                                        { "id": "mendicite" }
+                                    ],
+                                    ,
+                                    "tares": [
+                                        { "id": "pauvrete" }
+                                    ]
+                                },
+                                {
+                                    "id": "cuisinier",
+                                    "label": "Cuisinier",
+                                    "desc": "...",
+                                    "img": "cuisinier",
+                                    "cp": [
+                                        { "id": "intelligence", "value": 8  },
+                                        { "id": "force", "value": 8 },
+                                        { "id": "charisme", "value": 8 }
+                                    ],
+                                    "cs": [
+                                        { "id": "sang-froid", "bonus": 2 },
+                                        { "id": "arme", "bonus": 1 },
+                                        { "id": "jet", "bonus": 2 }
+                                    ],
+                                    "talents": [
+                                        { "id": "cuisine" },
+                                        { "id": "maneges_saveurs" }
+                                    ]
+                                },
+                                {
+                                    "id": "diplomates",
+                                    "label": "Diplomates",
+                                    "desc": "...",
+                                    "img": "diplomates",
+                                    "cp": [
+                                        { "id": "intelligence", "value": 8 },
+                                        { "id": "constitution", "value": 6 },
+                                        { "id": "charisme", "value": 12 }
+                                    ],
+                                    "cs": [
+                                        { "id": "marchandage", "bonus": 1 },
+                                        { "id": "courage", "bonus": 2 },
+                                        { "id": "sang_froid", "bonus": 3 }
+                                    ],
+                                    "talents": [
+                                        { "id": "diplomatie" },
+                                        { "id": "tact" }
+                                    ]
+                                },
+                                {
+                                    "id": "avocat",
+                                    "label": "Avocat",
+                                    "desc": "...",
+                                    "img": "avocat",
+                                    "cp": [
+                                        { "id": 1, "value": 5 },
+                                        { "id": 2, "value": 5 },
+                                        { "id": 3, "value": 10 }
+                                    ],
+                                    "cs": [
+                                        { "id": 1, "bonus": 1 },
+                                        { "id": 2, "bonus": 1 },
+                                        { "id": 3, "bonus": 1 },
+                                        { "id": 4, "bonus": 1 },
+                                        { "id": 5, "bonus": 1 }
+                                    ],
+                                    "talents": [
+                                        { "id": 1 },
+                                        { "id": 2 }
+                                    ],
+                                    ,
+                                    "tares": [
+                                        { "id": 1 }
+                                    ]
+                                },
+                                {
+                                    "id": 4,
+                                    "label": "",
+                                    "desc": "",
+                                    "img": "",
+                                    "cp": [
+                                        { "id": 1, "value": 5 },
+                                        { "id": 2, "value": 5 },
+                                        { "id": 3, "value": 10 }
+                                    ],
+                                    "cs": [
+                                        { "id": 1, "bonus": 1 },
+                                        { "id": 2, "bonus": 1 },
+                                        { "id": 3, "bonus": 1 },
+                                        { "id": 4, "bonus": 1 },
+                                        { "id": 5, "bonus": 1 }
+                                    ],
+                                    "talents": [
+                                        { "id": 1 },
+                                        { "id": 2 }
+                                    ],
+                                    ,
+                                    "tares": [
+                                        { "id": 1 }
+                                    ]
+                                },
+                                {
+                                    "id": 5,
+                                    "label": "",
+                                    "desc": "",
+                                    "img": "",
+                                    "cp": [
+                                        { "id": 1, "value": 5 },
+                                        { "id": 2, "value": 5 },
+                                        { "id": 3, "value": 10 }
+                                    ],
+                                    "cs": [
+                                        { "id": 1, "bonus": 1 },
+                                        { "id": 2, "bonus": 1 },
+                                        { "id": 3, "bonus": 1 },
+                                        { "id": 4, "bonus": 1 },
+                                        { "id": 5, "bonus": 1 }
+                                    ],
+                                    "talents": [
+                                        { "id": 1 },
+                                        { "id": 2 }
+                                    ],
+                                    ,
+                                    "tares": [
+                                        { "id": 1 }
+                                    ]
+                                },
+                                {
+                                    "id": 6,
+                                    "label": "",
+                                    "desc": "",
+                                    "img": "",
+                                    "cp": [
+                                        { "id": 1, "value": 5 },
+                                        { "id": 2, "value": 5 },
+                                        { "id": 3, "value": 10 }
+                                    ],
+                                    "cs": [
+                                        { "id": 1, "bonus": 1 },
+                                        { "id": 2, "bonus": 1 },
+                                        { "id": 3, "bonus": 1 },
+                                        { "id": 4, "bonus": 1 },
+                                        { "id": 5, "bonus": 1 }
+                                    ],
+                                    "talents": [
+                                        { "id": 1 },
+                                        { "id": 2 }
+                                    ],
+                                    ,
+                                    "tares": [
+                                        { "id": 1 }
+                                    ]
+                                },
+                                {
+                                    "id": 7,
+                                    "label": "",
+                                    "desc": "",
+                                    "img": "",
+                                    "cp": [
+                                        { "id": 1, "value": 5 },
+                                        { "id": 2, "value": 5 },
+                                        { "id": 3, "value": 10 }
+                                    ],
+                                    "cs": [
+                                        { "id": 1, "bonus": 1 },
+                                        { "id": 2, "bonus": 1 },
+                                        { "id": 3, "bonus": 1 },
+                                        { "id": 4, "bonus": 1 },
+                                        { "id": 5, "bonus": 1 }
+                                    ],
+                                    "talents": [
+                                        { "id": 1 },
+                                        { "id": 2 }
+                                    ],
+                                    ,
+                                    "tares": [
+                                        { "id": 1 }
+                                    ]
+                                }
+                            ] 
+                        },
+                        {
+                            "id": "galdeain",
+                            "label": "Galdéain",
+                            "desc": "",
+                            "img": [
+                                {
+                                    "homme": "galdeain_h",
+                                    "femme": "galdeain_f"
+                                }
+                            ],
+                            "caste": [
+                                {
+                                    "id": "paysan",
+                                    "label": "Paysan",
+                                    "desc": "",
+                                    "img": "paysan",
+                                    "cp": [
+                                        { "id": 1, "value": 5 },
+                                        { "id": 2, "value": 5 },
+                                        { "id": 3, "value": 10 }
+                                    ],
+                                    "cs": [
+                                        { "id": 1, "bonus": 1 },
+                                        { "id": 2, "bonus": 1 },
+                                        { "id": 3, "bonus": 1 },
+                                        { "id": 4, "bonus": 1 },
+                                        { "id": 5, "bonus": 1 }
+                                    ],
+                                    "talents": [
+                                        { "id": 1 },
+                                        { "id": 2 }
+                                    ],
+                                    ,
+                                    "tares": [
+                                        { "id": 1 }
+                                    ]
+                                },
+                                {
+                                    "id": 2,
+                                    "label": "",
+                                    "desc": "",
+                                    "img": "",
+                                    "cp": [
+                                        { "id": 1, "value": 5 },
+                                        { "id": 2, "value": 5 },
+                                        { "id": 3, "value": 10 }
+                                    ],
+                                    "cs": [
+                                        { "id": 1, "bonus": 1 },
+                                        { "id": 2, "bonus": 1 },
+                                        { "id": 3, "bonus": 1 },
+                                        { "id": 4, "bonus": 1 },
+                                        { "id": 5, "bonus": 1 }
+                                    ],
+                                    "talents": [
+                                        { "id": 1 },
+                                        { "id": 2 }
+                                    ],
+                                    ,
+                                    "tares": [
+                                        { "id": 1 }
+                                    ]
+                                },
+                                {
+                                    "id": 3,
+                                    "label": "",
+                                    "desc": "",
+                                    "img": "",
+                                    "cp": [
+                                        { "id": 1, "value": 5 },
+                                        { "id": 2, "value": 5 },
+                                        { "id": 3, "value": 10 }
+                                    ],
+                                    "cs": [
+                                        { "id": 1, "bonus": 1 },
+                                        { "id": 2, "bonus": 1 },
+                                        { "id": 3, "bonus": 1 },
+                                        { "id": 4, "bonus": 1 },
+                                        { "id": 5, "bonus": 1 }
+                                    ],
+                                    "talents": [
+                                        { "id": 1 },
+                                        { "id": 2 }
+                                    ],
+                                    ,
+                                    "tares": [
+                                        { "id": 1 }
+                                    ]
+                                },
+                                {
+                                    "id": 4,
+                                    "label": "",
+                                    "desc": "",
+                                    "img": "",
+                                    "cp": [
+                                        { "id": 1, "value": 5 },
+                                        { "id": 2, "value": 5 },
+                                        { "id": 3, "value": 10 }
+                                    ],
+                                    "cs": [
+                                        { "id": 1, "bonus": 1 },
+                                        { "id": 2, "bonus": 1 },
+                                        { "id": 3, "bonus": 1 },
+                                        { "id": 4, "bonus": 1 },
+                                        { "id": 5, "bonus": 1 }
+                                    ],
+                                    "talents": [
+                                        { "id": 1 },
+                                        { "id": 2 }
+                                    ],
+                                    ,
+                                    "tares": [
+                                        { "id": 1 }
+                                    ]
+                                },
+                                {
+                                    "id": 5,
+                                    "label": "",
+                                    "desc": "",
+                                    "img": "",
+                                    "cp": [
+                                        { "id": 1, "value": 5 },
+                                        { "id": 2, "value": 5 },
+                                        { "id": 3, "value": 10 }
+                                    ],
+                                    "cs": [
+                                        { "id": 1, "bonus": 1 },
+                                        { "id": 2, "bonus": 1 },
+                                        { "id": 3, "bonus": 1 },
+                                        { "id": 4, "bonus": 1 },
+                                        { "id": 5, "bonus": 1 }
+                                    ],
+                                    "talents": [
+                                        { "id": 1 },
+                                        { "id": 2 }
+                                    ],
+                                    ,
+                                    "tares": [
+                                        { "id": 1 }
+                                    ]
+                                },
+                                {
+                                    "id": 6,
+                                    "label": "",
+                                    "desc": "",
+                                    "img": "",
+                                    "cp": [
+                                        { "id": 1, "value": 5 },
+                                        { "id": 2, "value": 5 },
+                                        { "id": 3, "value": 10 }
+                                    ],
+                                    "cs": [
+                                        { "id": 1, "bonus": 1 },
+                                        { "id": 2, "bonus": 1 },
+                                        { "id": 3, "bonus": 1 },
+                                        { "id": 4, "bonus": 1 },
+                                        { "id": 5, "bonus": 1 }
+                                    ],
+                                    "talents": [
+                                        { "id": 1 },
+                                        { "id": 2 }
+                                    ],
+                                    ,
+                                    "tares": [
+                                        { "id": 1 }
+                                    ]
+                                },
+                                {
+                                    "id": 7,
+                                    "label": "",
+                                    "desc": "",
+                                    "img": "",
+                                    "cp": [
+                                        { "id": 1, "value": 5 },
+                                        { "id": 2, "value": 5 },
+                                        { "id": 3, "value": 10 }
+                                    ],
+                                    "cs": [
+                                        { "id": 1, "bonus": 1 },
+                                        { "id": 2, "bonus": 1 },
+                                        { "id": 3, "bonus": 1 },
+                                        { "id": 4, "bonus": 1 },
+                                        { "id": 5, "bonus": 1 }
+                                    ],
+                                    "talents": [
+                                        { "id": 1 },
+                                        { "id": 2 }
+                                    ],
+                                    ,
+                                    "tares": [
+                                        { "id": 1 }
+                                    ]
+                                }
+                            ] 
+                        },
+                        {
+                            "id": "erin",
+                            "label": "Erin",
+                            "desc": "",
+                            "img": [
+                                {
+                                    "homme": "erin_h",
+                                    "femme": "erin_f"
+                                }
+                            ],
+                            "caste": [
+                                {
+                                    "id": 1,
+                                    "label": "",
+                                    "desc": "",
+                                    "img": "",
+                                    "cp": [
+                                        { "id": 1, "value": 5 },
+                                        { "id": 2, "value": 5 },
+                                        { "id": 3, "value": 10 }
+                                    ],
+                                    "cs": [
+                                        { "id": 1, "bonus": 1 },
+                                        { "id": 2, "bonus": 1 },
+                                        { "id": 3, "bonus": 1 },
+                                        { "id": 4, "bonus": 1 },
+                                        { "id": 5, "bonus": 1 }
+                                    ],
+                                    "talents": [
+                                        { "id": 1 },
+                                        { "id": 2 }
+                                    ],
+                                    ,
+                                    "tares": [
+                                        { "id": 1 }
+                                    ]
+                                },
+                                {
+                                    "id": 2,
+                                    "label": "",
+                                    "desc": "",
+                                    "img": "",
+                                    "cp": [
+                                        { "id": 1, "value": 5 },
+                                        { "id": 2, "value": 5 },
+                                        { "id": 3, "value": 10 }
+                                    ],
+                                    "cs": [
+                                        { "id": 1, "bonus": 1 },
+                                        { "id": 2, "bonus": 1 },
+                                        { "id": 3, "bonus": 1 },
+                                        { "id": 4, "bonus": 1 },
+                                        { "id": 5, "bonus": 1 }
+                                    ],
+                                    "talents": [
+                                        { "id": 1 },
+                                        { "id": 2 }
+                                    ],
+                                    ,
+                                    "tares": [
+                                        { "id": 1 }
+                                    ]
+                                },
+                                {
+                                    "id": 3,
+                                    "label": "",
+                                    "desc": "",
+                                    "img": "",
+                                    "cp": [
+                                        { "id": 1, "value": 5 },
+                                        { "id": 2, "value": 5 },
+                                        { "id": 3, "value": 10 }
+                                    ],
+                                    "cs": [
+                                        { "id": 1, "bonus": 1 },
+                                        { "id": 2, "bonus": 1 },
+                                        { "id": 3, "bonus": 1 },
+                                        { "id": 4, "bonus": 1 },
+                                        { "id": 5, "bonus": 1 }
+                                    ],
+                                    "talents": [
+                                        { "id": 1 },
+                                        { "id": 2 }
+                                    ],
+                                    ,
+                                    "tares": [
+                                        { "id": 1 }
+                                    ]
+                                },
+                                {
+                                    "id": 4,
+                                    "label": "",
+                                    "desc": "",
+                                    "img": "",
+                                    "cp": [
+                                        { "id": 1, "value": 5 },
+                                        { "id": 2, "value": 5 },
+                                        { "id": 3, "value": 10 }
+                                    ],
+                                    "cs": [
+                                        { "id": 1, "bonus": 1 },
+                                        { "id": 2, "bonus": 1 },
+                                        { "id": 3, "bonus": 1 },
+                                        { "id": 4, "bonus": 1 },
+                                        { "id": 5, "bonus": 1 }
+                                    ],
+                                    "talents": [
+                                        { "id": 1 },
+                                        { "id": 2 }
+                                    ],
+                                    ,
+                                    "tares": [
+                                        { "id": 1 }
+                                    ]
+                                },
+                                {
+                                    "id": 5,
+                                    "label": "",
+                                    "desc": "",
+                                    "img": "",
+                                    "cp": [
+                                        { "id": 1, "value": 5 },
+                                        { "id": 2, "value": 5 },
+                                        { "id": 3, "value": 10 }
+                                    ],
+                                    "cs": [
+                                        { "id": 1, "bonus": 1 },
+                                        { "id": 2, "bonus": 1 },
+                                        { "id": 3, "bonus": 1 },
+                                        { "id": 4, "bonus": 1 },
+                                        { "id": 5, "bonus": 1 }
+                                    ],
+                                    "talents": [
+                                        { "id": 1 },
+                                        { "id": 2 }
+                                    ],
+                                    ,
+                                    "tares": [
+                                        { "id": 1 }
+                                    ]
+                                },
+                                {
+                                    "id": 6,
+                                    "label": "",
+                                    "desc": "",
+                                    "img": "",
+                                    "cp": [
+                                        { "id": 1, "value": 5 },
+                                        { "id": 2, "value": 5 },
+                                        { "id": 3, "value": 10 }
+                                    ],
+                                    "cs": [
+                                        { "id": 1, "bonus": 1 },
+                                        { "id": 2, "bonus": 1 },
+                                        { "id": 3, "bonus": 1 },
+                                        { "id": 4, "bonus": 1 },
+                                        { "id": 5, "bonus": 1 }
+                                    ],
+                                    "talents": [
+                                        { "id": 1 },
+                                        { "id": 2 }
+                                    ],
+                                    ,
+                                    "tares": [
+                                        { "id": 1 }
+                                    ]
+                                },
+                                {
+                                    "id": 7,
+                                    "label": "",
+                                    "desc": "",
+                                    "img": "",
+                                    "cp": [
+                                        { "id": 1, "value": 5 },
+                                        { "id": 2, "value": 5 },
+                                        { "id": 3, "value": 10 }
+                                    ],
+                                    "cs": [
+                                        { "id": 1, "bonus": 1 },
+                                        { "id": 2, "bonus": 1 },
+                                        { "id": 3, "bonus": 1 },
+                                        { "id": 4, "bonus": 1 },
+                                        { "id": 5, "bonus": 1 }
+                                    ],
+                                    "talents": [
+                                        { "id": 1 },
+                                        { "id": 2 }
+                                    ],
+                                    ,
+                                    "tares": [
+                                        { "id": 1 }
+                                    ]
+                                }
+                            ] 
+                        },
+                        {
+                            "id": "herscheur",
+                            "label": "Herscheur",
+                            "desc": "",
+                            "img": [
+                                {
+                                    "homme": "herscheur_h",
+                                    "femme": "herscheur_f"
+                                }
+                            ],
+                            "caste": [
+                                {
+                                    "id": 1,
+                                    "label": "",
+                                    "desc": "",
+                                    "img": "",
+                                    "cp": [
+                                        { "id": 1, "value": 5 },
+                                        { "id": 2, "value": 5 },
+                                        { "id": 3, "value": 10 }
+                                    ],
+                                    "cs": [
+                                        { "id": 1, "bonus": 1 },
+                                        { "id": 2, "bonus": 1 },
+                                        { "id": 3, "bonus": 1 },
+                                        { "id": 4, "bonus": 1 },
+                                        { "id": 5, "bonus": 1 }
+                                    ],
+                                    "talents": [
+                                        { "id": 1 },
+                                        { "id": 2 }
+                                    ],
+                                    ,
+                                    "tares": [
+                                        { "id": 1 }
+                                    ]
+                                },
+                                {
+                                    "id": 2,
+                                    "label": "",
+                                    "desc": "",
+                                    "img": "",
+                                    "cp": [
+                                        { "id": 1, "value": 5 },
+                                        { "id": 2, "value": 5 },
+                                        { "id": 3, "value": 10 }
+                                    ],
+                                    "cs": [
+                                        { "id": 1, "bonus": 1 },
+                                        { "id": 2, "bonus": 1 },
+                                        { "id": 3, "bonus": 1 },
+                                        { "id": 4, "bonus": 1 },
+                                        { "id": 5, "bonus": 1 }
+                                    ],
+                                    "talents": [
+                                        { "id": 1 },
+                                        { "id": 2 }
+                                    ],
+                                    ,
+                                    "tares": [
+                                        { "id": 1 }
+                                    ]
+                                },
+                                {
+                                    "id": 3,
+                                    "label": "",
+                                    "desc": "",
+                                    "img": "",
+                                    "cp": [
+                                        { "id": 1, "value": 5 },
+                                        { "id": 2, "value": 5 },
+                                        { "id": 3, "value": 10 }
+                                    ],
+                                    "cs": [
+                                        { "id": 1, "bonus": 1 },
+                                        { "id": 2, "bonus": 1 },
+                                        { "id": 3, "bonus": 1 },
+                                        { "id": 4, "bonus": 1 },
+                                        { "id": 5, "bonus": 1 }
+                                    ],
+                                    "talents": [
+                                        { "id": 1 },
+                                        { "id": 2 }
+                                    ],
+                                    ,
+                                    "tares": [
+                                        { "id": 1 }
+                                    ]
+                                },
+                                {
+                                    "id": 4,
+                                    "label": "",
+                                    "desc": "",
+                                    "img": "",
+                                    "cp": [
+                                        { "id": 1, "value": 5 },
+                                        { "id": 2, "value": 5 },
+                                        { "id": 3, "value": 10 }
+                                    ],
+                                    "cs": [
+                                        { "id": 1, "bonus": 1 },
+                                        { "id": 2, "bonus": 1 },
+                                        { "id": 3, "bonus": 1 },
+                                        { "id": 4, "bonus": 1 },
+                                        { "id": 5, "bonus": 1 }
+                                    ],
+                                    "talents": [
+                                        { "id": 1 },
+                                        { "id": 2 }
+                                    ],
+                                    ,
+                                    "tares": [
+                                        { "id": 1 }
+                                    ]
+                                },
+                                {
+                                    "id": 5,
+                                    "label": "",
+                                    "desc": "",
+                                    "img": "",
+                                    "cp": [
+                                        { "id": 1, "value": 5 },
+                                        { "id": 2, "value": 5 },
+                                        { "id": 3, "value": 10 }
+                                    ],
+                                    "cs": [
+                                        { "id": 1, "bonus": 1 },
+                                        { "id": 2, "bonus": 1 },
+                                        { "id": 3, "bonus": 1 },
+                                        { "id": 4, "bonus": 1 },
+                                        { "id": 5, "bonus": 1 }
+                                    ],
+                                    "talents": [
+                                        { "id": 1 },
+                                        { "id": 2 }
+                                    ],
+                                    ,
+                                    "tares": [
+                                        { "id": 1 }
+                                    ]
+                                },
+                                {
+                                    "id": 6,
+                                    "label": "",
+                                    "desc": "",
+                                    "img": "",
+                                    "cp": [
+                                        { "id": 1, "value": 5 },
+                                        { "id": 2, "value": 5 },
+                                        { "id": 3, "value": 10 }
+                                    ],
+                                    "cs": [
+                                        { "id": 1, "bonus": 1 },
+                                        { "id": 2, "bonus": 1 },
+                                        { "id": 3, "bonus": 1 },
+                                        { "id": 4, "bonus": 1 },
+                                        { "id": 5, "bonus": 1 }
+                                    ],
+                                    "talents": [
+                                        { "id": 1 },
+                                        { "id": 2 }
+                                    ],
+                                    ,
+                                    "tares": [
+                                        { "id": 1 }
+                                    ]
+                                },
+                                {
+                                    "id": 7,
+                                    "label": "",
+                                    "desc": "",
+                                    "img": "",
+                                    "cp": [
+                                        { "id": 1, "value": 5 },
+                                        { "id": 2, "value": 5 },
+                                        { "id": 3, "value": 10 }
+                                    ],
+                                    "cs": [
+                                        { "id": 1, "bonus": 1 },
+                                        { "id": 2, "bonus": 1 },
+                                        { "id": 3, "bonus": 1 },
+                                        { "id": 4, "bonus": 1 },
+                                        { "id": 5, "bonus": 1 }
+                                    ],
+                                    "talents": [
+                                        { "id": 1 },
+                                        { "id": 2 }
+                                    ],
+                                    ,
+                                    "tares": [
+                                        { "id": 1 }
+                                    ]
+                                }
+                            ] 
+                        },
+                        {
+                            "id": "gnome",
+                            "label": "Gnome",
+                            "desc": "...",
+                            "img": [
+                                {
+                                    "homme": "gnome_h",
+                                    "femme": "gnome_f"
+                                }
+                            ],
+                            "caste": [
+                                {
+                                    "id": 1,
+                                    "label": "",
+                                    "desc": "",
+                                    "img": "",
+                                    "cp": [
+                                        { "id": 1, "value": 5 },
+                                        { "id": 2, "value": 5 },
+                                        { "id": 3, "value": 10 }
+                                    ],
+                                    "cs": [
+                                        { "id": 1, "bonus": 1 },
+                                        { "id": 2, "bonus": 1 },
+                                        { "id": 3, "bonus": 1 },
+                                        { "id": 4, "bonus": 1 },
+                                        { "id": 5, "bonus": 1 }
+                                    ],
+                                    "talents": [
+                                        { "id": 1 },
+                                        { "id": 2 }
+                                    ],
+                                    ,
+                                    "tares": [
+                                        { "id": 1 }
+                                    ]
+                                },
+                                {
+                                    "id": 2,
+                                    "label": "",
+                                    "desc": "",
+                                    "img": "",
+                                    "cp": [
+                                        { "id": 1, "value": 5 },
+                                        { "id": 2, "value": 5 },
+                                        { "id": 3, "value": 10 }
+                                    ],
+                                    "cs": [
+                                        { "id": 1, "bonus": 1 },
+                                        { "id": 2, "bonus": 1 },
+                                        { "id": 3, "bonus": 1 },
+                                        { "id": 4, "bonus": 1 },
+                                        { "id": 5, "bonus": 1 }
+                                    ],
+                                    "talents": [
+                                        { "id": 1 },
+                                        { "id": 2 }
+                                    ],
+                                    ,
+                                    "tares": [
+                                        { "id": 1 }
+                                    ]
+                                },
+                                {
+                                    "id": 3,
+                                    "label": "",
+                                    "desc": "",
+                                    "img": "",
+                                    "cp": [
+                                        { "id": 1, "value": 5 },
+                                        { "id": 2, "value": 5 },
+                                        { "id": 3, "value": 10 }
+                                    ],
+                                    "cs": [
+                                        { "id": 1, "bonus": 1 },
+                                        { "id": 2, "bonus": 1 },
+                                        { "id": 3, "bonus": 1 },
+                                        { "id": 4, "bonus": 1 },
+                                        { "id": 5, "bonus": 1 }
+                                    ],
+                                    "talents": [
+                                        { "id": 1 },
+                                        { "id": 2 }
+                                    ],
+                                    ,
+                                    "tares": [
+                                        { "id": 1 }
+                                    ]
+                                },
+                                {
+                                    "id": 4,
+                                    "label": "",
+                                    "desc": "",
+                                    "img": "",
+                                    "cp": [
+                                        { "id": 1, "value": 5 },
+                                        { "id": 2, "value": 5 },
+                                        { "id": 3, "value": 10 }
+                                    ],
+                                    "cs": [
+                                        { "id": 1, "bonus": 1 },
+                                        { "id": 2, "bonus": 1 },
+                                        { "id": 3, "bonus": 1 },
+                                        { "id": 4, "bonus": 1 },
+                                        { "id": 5, "bonus": 1 }
+                                    ],
+                                    "talents": [
+                                        { "id": 1 },
+                                        { "id": 2 }
+                                    ],
+                                    ,
+                                    "tares": [
+                                        { "id": 1 }
+                                    ]
+                                },
+                                {
+                                    "id": 5,
+                                    "label": "",
+                                    "desc": "",
+                                    "img": "",
+                                    "cp": [
+                                        { "id": 1, "value": 5 },
+                                        { "id": 2, "value": 5 },
+                                        { "id": 3, "value": 10 }
+                                    ],
+                                    "cs": [
+                                        { "id": 1, "bonus": 1 },
+                                        { "id": 2, "bonus": 1 },
+                                        { "id": 3, "bonus": 1 },
+                                        { "id": 4, "bonus": 1 },
+                                        { "id": 5, "bonus": 1 }
+                                    ],
+                                    "talents": [
+                                        { "id": 1 },
+                                        { "id": 2 }
+                                    ],
+                                    ,
+                                    "tares": [
+                                        { "id": 1 }
+                                    ]
+                                },
+                                {
+                                    "id": 6,
+                                    "label": "",
+                                    "desc": "",
+                                    "img": "",
+                                    "cp": [
+                                        { "id": 1, "value": 5 },
+                                        { "id": 2, "value": 5 },
+                                        { "id": 3, "value": 10 }
+                                    ],
+                                    "cs": [
+                                        { "id": 1, "bonus": 1 },
+                                        { "id": 2, "bonus": 1 },
+                                        { "id": 3, "bonus": 1 },
+                                        { "id": 4, "bonus": 1 },
+                                        { "id": 5, "bonus": 1 }
+                                    ],
+                                    "talents": [
+                                        { "id": 1 },
+                                        { "id": 2 }
+                                    ],
+                                    ,
+                                    "tares": [
+                                        { "id": 1 }
+                                    ]
+                                },
+                                {
+                                    "id": 7,
+                                    "label": "",
+                                    "desc": "",
+                                    "img": "",
+                                    "cp": [
+                                        { "id": 1, "value": 5 },
+                                        { "id": 2, "value": 5 },
+                                        { "id": 3, "value": 10 }
+                                    ],
+                                    "cs": [
+                                        { "id": 1, "bonus": 1 },
+                                        { "id": 2, "bonus": 1 },
+                                        { "id": 3, "bonus": 1 },
+                                        { "id": 4, "bonus": 1 },
+                                        { "id": 5, "bonus": 1 }
+                                    ],
+                                    "talents": [
+                                        { "id": 1 },
+                                        { "id": 2 }
+                                    ],
+                                    ,
+                                    "tares": [
+                                        { "id": 1 }
+                                    ]
+                                }
+                            ] 
+                        },
+                        {
+                            "id": "nekoji",
+                            "label": "Nekoji",
+                            "desc": "...",
+                            "img": [
+                                {
+                                    "homme": "nekoji_h",
+                                    "femme": "nekoji_f"
+                                }
+                            ],
+                            "caste": [
+                                {
+                                    "id": 1,
+                                    "label": "",
+                                    "desc": "",
+                                    "img": "",
+                                    "cp": [
+                                        { "id": 1, "value": 5 },
+                                        { "id": 2, "value": 5 },
+                                        { "id": 3, "value": 10 }
+                                    ],
+                                    "cs": [
+                                        { "id": 1, "bonus": 1 },
+                                        { "id": 2, "bonus": 1 },
+                                        { "id": 3, "bonus": 1 },
+                                        { "id": 4, "bonus": 1 },
+                                        { "id": 5, "bonus": 1 }
+                                    ],
+                                    "talents": [
+                                        { "id": 1 },
+                                        { "id": 2 }
+                                    ],
+                                    ,
+                                    "tares": [
+                                        { "id": 1 }
+                                    ]
+                                },
+                                {
+                                    "id": 2,
+                                    "label": "",
+                                    "desc": "",
+                                    "img": "",
+                                    "cp": [
+                                        { "id": 1, "value": 5 },
+                                        { "id": 2, "value": 5 },
+                                        { "id": 3, "value": 10 }
+                                    ],
+                                    "cs": [
+                                        { "id": 1, "bonus": 1 },
+                                        { "id": 2, "bonus": 1 },
+                                        { "id": 3, "bonus": 1 },
+                                        { "id": 4, "bonus": 1 },
+                                        { "id": 5, "bonus": 1 }
+                                    ],
+                                    "talents": [
+                                        { "id": 1 },
+                                        { "id": 2 }
+                                    ],
+                                    ,
+                                    "tares": [
+                                        { "id": 1 }
+                                    ]
+                                },
+                                {
+                                    "id": 3,
+                                    "label": "",
+                                    "desc": "",
+                                    "img": "",
+                                    "cp": [
+                                        { "id": 1, "value": 5 },
+                                        { "id": 2, "value": 5 },
+                                        { "id": 3, "value": 10 }
+                                    ],
+                                    "cs": [
+                                        { "id": 1, "bonus": 1 },
+                                        { "id": 2, "bonus": 1 },
+                                        { "id": 3, "bonus": 1 },
+                                        { "id": 4, "bonus": 1 },
+                                        { "id": 5, "bonus": 1 }
+                                    ],
+                                    "talents": [
+                                        { "id": 1 },
+                                        { "id": 2 }
+                                    ],
+                                    ,
+                                    "tares": [
+                                        { "id": 1 }
+                                    ]
+                                },
+                                {
+                                    "id": 4,
+                                    "label": "",
+                                    "desc": "",
+                                    "img": "",
+                                    "cp": [
+                                        { "id": 1, "value": 5 },
+                                        { "id": 2, "value": 5 },
+                                        { "id": 3, "value": 10 }
+                                    ],
+                                    "cs": [
+                                        { "id": 1, "bonus": 1 },
+                                        { "id": 2, "bonus": 1 },
+                                        { "id": 3, "bonus": 1 },
+                                        { "id": 4, "bonus": 1 },
+                                        { "id": 5, "bonus": 1 }
+                                    ],
+                                    "talents": [
+                                        { "id": 1 },
+                                        { "id": 2 }
+                                    ],
+                                    ,
+                                    "tares": [
+                                        { "id": 1 }
+                                    ]
+                                },
+                                {
+                                    "id": 5,
+                                    "label": "",
+                                    "desc": "",
+                                    "img": "",
+                                    "cp": [
+                                        { "id": 1, "value": 5 },
+                                        { "id": 2, "value": 5 },
+                                        { "id": 3, "value": 10 }
+                                    ],
+                                    "cs": [
+                                        { "id": 1, "bonus": 1 },
+                                        { "id": 2, "bonus": 1 },
+                                        { "id": 3, "bonus": 1 },
+                                        { "id": 4, "bonus": 1 },
+                                        { "id": 5, "bonus": 1 }
+                                    ],
+                                    "talents": [
+                                        { "id": 1 },
+                                        { "id": 2 }
+                                    ],
+                                    ,
+                                    "tares": [
+                                        { "id": 1 }
+                                    ]
+                                },
+                                {
+                                    "id": 6,
+                                    "label": "",
+                                    "desc": "",
+                                    "img": "",
+                                    "cp": [
+                                        { "id": 1, "value": 5 },
+                                        { "id": 2, "value": 5 },
+                                        { "id": 3, "value": 10 }
+                                    ],
+                                    "cs": [
+                                        { "id": 1, "bonus": 1 },
+                                        { "id": 2, "bonus": 1 },
+                                        { "id": 3, "bonus": 1 },
+                                        { "id": 4, "bonus": 1 },
+                                        { "id": 5, "bonus": 1 }
+                                    ],
+                                    "talents": [
+                                        { "id": 1 },
+                                        { "id": 2 }
+                                    ],
+                                    ,
+                                    "tares": [
+                                        { "id": 1 }
+                                    ]
+                                },
+                                {
+                                    "id": 7,
+                                    "label": "",
+                                    "desc": "",
+                                    "img": "",
+                                    "cp": [
+                                        { "id": 1, "value": 5 },
+                                        { "id": 2, "value": 5 },
+                                        { "id": 3, "value": 10 }
+                                    ],
+                                    "cs": [
+                                        { "id": 1, "bonus": 1 },
+                                        { "id": 2, "bonus": 1 },
+                                        { "id": 3, "bonus": 1 },
+                                        { "id": 4, "bonus": 1 },
+                                        { "id": 5, "bonus": 1 }
+                                    ],
+                                    "talents": [
+                                        { "id": 1 },
+                                        { "id": 2 }
+                                    ],
+                                    ,
+                                    "tares": [
+                                        { "id": 1 }
+                                    ]
+                                }
+                            ] 
+                        },
+                        {
+                            "id": "fee",
+                            "label": "Fée",
+                            "desc": "",
+                            "img": [
+                                {
+                                    "homme": "fee_h",
+                                    "femme": "fee_f"
+                                }
+                            ],
+                            "caste": [
+                                {
+                                    "id": 1,
+                                    "label": "",
+                                    "desc": "",
+                                    "img": "",
+                                    "cp": [
+                                        { "id": 1, "value": 5 },
+                                        { "id": 2, "value": 5 },
+                                        { "id": 3, "value": 10 }
+                                    ],
+                                    "cs": [
+                                        { "id": 1, "bonus": 1 },
+                                        { "id": 2, "bonus": 1 },
+                                        { "id": 3, "bonus": 1 },
+                                        { "id": 4, "bonus": 1 },
+                                        { "id": 5, "bonus": 1 }
+                                    ],
+                                    "talents": [
+                                        { "id": 1 },
+                                        { "id": 2 }
+                                    ],
+                                    ,
+                                    "tares": [
+                                        { "id": 1 }
+                                    ]
+                                },
+                                {
+                                    "id": 2,
+                                    "label": "",
+                                    "desc": "",
+                                    "img": "",
+                                    "cp": [
+                                        { "id": 1, "value": 5 },
+                                        { "id": 2, "value": 5 },
+                                        { "id": 3, "value": 10 }
+                                    ],
+                                    "cs": [
+                                        { "id": 1, "bonus": 1 },
+                                        { "id": 2, "bonus": 1 },
+                                        { "id": 3, "bonus": 1 },
+                                        { "id": 4, "bonus": 1 },
+                                        { "id": 5, "bonus": 1 }
+                                    ],
+                                    "talents": [
+                                        { "id": 1 },
+                                        { "id": 2 }
+                                    ],
+                                    ,
+                                    "tares": [
+                                        { "id": 1 }
+                                    ]
+                                },
+                                {
+                                    "id": 3,
+                                    "label": "",
+                                    "desc": "",
+                                    "img": "",
+                                    "cp": [
+                                        { "id": 1, "value": 5 },
+                                        { "id": 2, "value": 5 },
+                                        { "id": 3, "value": 10 }
+                                    ],
+                                    "cs": [
+                                        { "id": 1, "bonus": 1 },
+                                        { "id": 2, "bonus": 1 },
+                                        { "id": 3, "bonus": 1 },
+                                        { "id": 4, "bonus": 1 },
+                                        { "id": 5, "bonus": 1 }
+                                    ],
+                                    "talents": [
+                                        { "id": 1 },
+                                        { "id": 2 }
+                                    ],
+                                    ,
+                                    "tares": [
+                                        { "id": 1 }
+                                    ]
+                                },
+                                {
+                                    "id": 4,
+                                    "label": "",
+                                    "desc": "",
+                                    "img": "",
+                                    "cp": [
+                                        { "id": 1, "value": 5 },
+                                        { "id": 2, "value": 5 },
+                                        { "id": 3, "value": 10 }
+                                    ],
+                                    "cs": [
+                                        { "id": 1, "bonus": 1 },
+                                        { "id": 2, "bonus": 1 },
+                                        { "id": 3, "bonus": 1 },
+                                        { "id": 4, "bonus": 1 },
+                                        { "id": 5, "bonus": 1 }
+                                    ],
+                                    "talents": [
+                                        { "id": 1 },
+                                        { "id": 2 }
+                                    ],
+                                    ,
+                                    "tares": [
+                                        { "id": 1 }
+                                    ]
+                                },
+                                {
+                                    "id": 5,
+                                    "label": "",
+                                    "desc": "",
+                                    "img": "",
+                                    "cp": [
+                                        { "id": 1, "value": 5 },
+                                        { "id": 2, "value": 5 },
+                                        { "id": 3, "value": 10 }
+                                    ],
+                                    "cs": [
+                                        { "id": 1, "bonus": 1 },
+                                        { "id": 2, "bonus": 1 },
+                                        { "id": 3, "bonus": 1 },
+                                        { "id": 4, "bonus": 1 },
+                                        { "id": 5, "bonus": 1 }
+                                    ],
+                                    "talents": [
+                                        { "id": 1 },
+                                        { "id": 2 }
+                                    ],
+                                    ,
+                                    "tares": [
+                                        { "id": 1 }
+                                    ]
+                                },
+                                {
+                                    "id": 6,
+                                    "label": "",
+                                    "desc": "",
+                                    "img": "",
+                                    "cp": [
+                                        { "id": 1, "value": 5 },
+                                        { "id": 2, "value": 5 },
+                                        { "id": 3, "value": 10 }
+                                    ],
+                                    "cs": [
+                                        { "id": 1, "bonus": 1 },
+                                        { "id": 2, "bonus": 1 },
+                                        { "id": 3, "bonus": 1 },
+                                        { "id": 4, "bonus": 1 },
+                                        { "id": 5, "bonus": 1 }
+                                    ],
+                                    "talents": [
+                                        { "id": 1 },
+                                        { "id": 2 }
+                                    ],
+                                    ,
+                                    "tares": [
+                                        { "id": 1 }
+                                    ]
+                                },
+                                {
+                                    "id": 7,
+                                    "label": "",
+                                    "desc": "",
+                                    "img": "",
+                                    "cp": [
+                                        { "id": 1, "value": 5 },
+                                        { "id": 2, "value": 5 },
+                                        { "id": 3, "value": 10 }
+                                    ],
+                                    "cs": [
+                                        { "id": 1, "bonus": 1 },
+                                        { "id": 2, "bonus": 1 },
+                                        { "id": 3, "bonus": 1 },
+                                        { "id": 4, "bonus": 1 },
+                                        { "id": 5, "bonus": 1 }
+                                    ],
+                                    "talents": [
+                                        { "id": 1 },
+                                        { "id": 2 }
+                                    ],
+                                    ,
+                                    "tares": [
+                                        { "id": 1 }
+                                    ]
+                                }
+                            ] 
+                        },
+                        {
+                            "id": "elvire",
+                            "label": "Elvire",
+                            "desc": "...",
+                            "img": [
+                                {
+                                    "homme": "elvire_h",
+                                    "femme": "elvire_f"
+                                }
+                            ],
+                            "caste": [
+                                {
+                                    "id": 1,
+                                    "label": "",
+                                    "desc": "",
+                                    "img": "",
+                                    "cp": [
+                                        { "id": 1, "value": 5 },
+                                        { "id": 2, "value": 5 },
+                                        { "id": 3, "value": 10 }
+                                    ],
+                                    "cs": [
+                                        { "id": 1, "bonus": 1 },
+                                        { "id": 2, "bonus": 1 },
+                                        { "id": 3, "bonus": 1 },
+                                        { "id": 4, "bonus": 1 },
+                                        { "id": 5, "bonus": 1 }
+                                    ],
+                                    "talents": [
+                                        { "id": 1 },
+                                        { "id": 2 }
+                                    ],
+                                    ,
+                                    "tares": [
+                                        { "id": 1 }
+                                    ]
+                                },
+                                {
+                                    "id": 2,
+                                    "label": "",
+                                    "desc": "",
+                                    "img": "",
+                                    "cp": [
+                                        { "id": 1, "value": 5 },
+                                        { "id": 2, "value": 5 },
+                                        { "id": 3, "value": 10 }
+                                    ],
+                                    "cs": [
+                                        { "id": 1, "bonus": 1 },
+                                        { "id": 2, "bonus": 1 },
+                                        { "id": 3, "bonus": 1 },
+                                        { "id": 4, "bonus": 1 },
+                                        { "id": 5, "bonus": 1 }
+                                    ],
+                                    "talents": [
+                                        { "id": 1 },
+                                        { "id": 2 }
+                                    ],
+                                    ,
+                                    "tares": [
+                                        { "id": 1 }
+                                    ]
+                                },
+                                {
+                                    "id": 3,
+                                    "label": "",
+                                    "desc": "",
+                                    "img": "",
+                                    "cp": [
+                                        { "id": 1, "value": 5 },
+                                        { "id": 2, "value": 5 },
+                                        { "id": 3, "value": 10 }
+                                    ],
+                                    "cs": [
+                                        { "id": 1, "bonus": 1 },
+                                        { "id": 2, "bonus": 1 },
+                                        { "id": 3, "bonus": 1 },
+                                        { "id": 4, "bonus": 1 },
+                                        { "id": 5, "bonus": 1 }
+                                    ],
+                                    "talents": [
+                                        { "id": 1 },
+                                        { "id": 2 }
+                                    ],
+                                    ,
+                                    "tares": [
+                                        { "id": 1 }
+                                    ]
+                                },
+                                {
+                                    "id": 4,
+                                    "label": "",
+                                    "desc": "",
+                                    "img": "",
+                                    "cp": [
+                                        { "id": 1, "value": 5 },
+                                        { "id": 2, "value": 5 },
+                                        { "id": 3, "value": 10 }
+                                    ],
+                                    "cs": [
+                                        { "id": 1, "bonus": 1 },
+                                        { "id": 2, "bonus": 1 },
+                                        { "id": 3, "bonus": 1 },
+                                        { "id": 4, "bonus": 1 },
+                                        { "id": 5, "bonus": 1 }
+                                    ],
+                                    "talents": [
+                                        { "id": 1 },
+                                        { "id": 2 }
+                                    ],
+                                    ,
+                                    "tares": [
+                                        { "id": 1 }
+                                    ]
+                                },
+                                {
+                                    "id": 5,
+                                    "label": "",
+                                    "desc": "",
+                                    "img": "",
+                                    "cp": [
+                                        { "id": 1, "value": 5 },
+                                        { "id": 2, "value": 5 },
+                                        { "id": 3, "value": 10 }
+                                    ],
+                                    "cs": [
+                                        { "id": 1, "bonus": 1 },
+                                        { "id": 2, "bonus": 1 },
+                                        { "id": 3, "bonus": 1 },
+                                        { "id": 4, "bonus": 1 },
+                                        { "id": 5, "bonus": 1 }
+                                    ],
+                                    "talents": [
+                                        { "id": 1 },
+                                        { "id": 2 }
+                                    ],
+                                    ,
+                                    "tares": [
+                                        { "id": 1 }
+                                    ]
+                                },
+                                {
+                                    "id": 6,
+                                    "label": "",
+                                    "desc": "",
+                                    "img": "",
+                                    "cp": [
+                                        { "id": 1, "value": 5 },
+                                        { "id": 2, "value": 5 },
+                                        { "id": 3, "value": 10 }
+                                    ],
+                                    "cs": [
+                                        { "id": 1, "bonus": 1 },
+                                        { "id": 2, "bonus": 1 },
+                                        { "id": 3, "bonus": 1 },
+                                        { "id": 4, "bonus": 1 },
+                                        { "id": 5, "bonus": 1 }
+                                    ],
+                                    "talents": [
+                                        { "id": 1 },
+                                        { "id": 2 }
+                                    ],
+                                    ,
+                                    "tares": [
+                                        { "id": 1 }
+                                    ]
+                                },
+                                {
+                                    "id": 7,
+                                    "label": "",
+                                    "desc": "",
+                                    "img": "",
+                                    "cp": [
+                                        { "id": 1, "value": 5 },
+                                        { "id": 2, "value": 5 },
+                                        { "id": 3, "value": 10 }
+                                    ],
+                                    "cs": [
+                                        { "id": 1, "bonus": 1 },
+                                        { "id": 2, "bonus": 1 },
+                                        { "id": 3, "bonus": 1 },
+                                        { "id": 4, "bonus": 1 },
+                                        { "id": 5, "bonus": 1 }
+                                    ],
+                                    "talents": [
+                                        { "id": 1 },
+                                        { "id": 2 }
+                                    ],
+                                    ,
+                                    "tares": [
+                                        { "id": 1 }
+                                    ]
+                                }
+                            ] 
+                        }
+                    ],
+                    "competences": [
+                        {
+                            "id": "intelligence",
+                            "label": "Intelligence",
+                            "desc": "...",
+                            "labelgroupe": "mentales",
+                            "cs": [
+                                {
+                                    "id": "apprentissage",
+                                    "label": "Apprentissage",
+                                    "desc": "..."
+                                },
+                                {
+                                    "id": "marchandage",
+                                    "label": "Marchandage",
+                                    "desc": "..."
+                                },{
+                                    "id": "premier_soin",
+                                    "label": "Premier-soin",
+                                    "desc": "..."
+                                },
+                                {
+                                    "id": "technique",
+                                    "label": "Technique",
+                                    "desc": "..."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "charisme",
+                            "label": "Charisme",
+                            "desc": "...",
+                            "labelgroupe": "de caractères",
+                            "cs": [
+                                {
+                                    "id": "courage",
+                                    "label": "Courage",
+                                    "desc": "..."
+                                },
+                                {
+                                    "id": "sagesse",
+                                    "label": "Sagesse",
+                                    "desc": "..."
+                                },{
+                                    "id": "compassion",
+                                    "label": "Compassion",
+                                    "desc": "..."
+                                },
+                                {
+                                    "id": "sang_froid",
+                                    "label": "Sang-froid",
+                                    "desc": "..."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "agilite",
+                            "label": "Agilité",
+                            "desc": "",
+                            "labelgroupe": "sportives",
+                            "cs": [
+                                {
+                                    "id": "course",
+                                    "label": "Course",
+                                    "desc": "..."
+                                },
+                                {
+                                    "id": "escalade",
+                                    "label": "Escalade",
+                                    "desc": "..."
+                                },{
+                                    "id": "natation",
+                                    "label": "Natation",
+                                    "desc": "..."
+                                },
+                                {
+                                    "id": "saut",
+                                    "label": "Saut",
+                                    "desc": "..."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "initiative",
+                            "label": "Initiative",
+                            "desc": "",
+                            "labelgroupe": "dextérités",
+                            "cs": [
+                                {
+                                    "id": "esquive",
+                                    "label": "Esquive",
+                                    "desc": "..."
+                                },
+                                {
+                                    "id": "reflexe",
+                                    "label": "Réflexe",
+                                    "desc": "..."
+                                },{
+                                    "id": "discretion",
+                                    "label": "Discrétion",
+                                    "desc": "..."
+                                },
+                                {
+                                    "id": "chapardage",
+                                    "label": "*Chapardage",
+                                    "desc": "..."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "constitution",
+                            "label": "Constitution",
+                            "desc": "...",
+                            "labelgroupe": "physiques",
+                            "cs": [
+                                {
+                                    "id": "res_maladie",
+                                    "label": "Résistance à la maladie",
+                                    "desc": "..."
+                                },
+                                {
+                                    "id": "res_poisons",
+                                    "label": "Résistance aux poisons",
+                                    "desc": "..."
+                                },{
+                                    "id": "res_alcool",
+                                    "label": "Résistance à l'alcool",
+                                    "desc": "..."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "force",
+                            "label": "Force",
+                            "desc": "",
+                            "labelgroupe": "combat rapproché",
+                            "cs": [
+                                {
+                                    "id": "puissance",
+                                    "label": "Puissance",
+                                    "desc": "..."
+                                },
+                                {
+                                    "id": "mains_nues",
+                                    "label": "Mains-nues",
+                                    "desc": "..."
+                                },{
+                                    "id": "arme",
+                                    "label": "arme à une main",
+                                    "desc": "..."
+                                },
+                                {
+                                    "id": "armes",
+                                    "label": "arme à deux mains",
+                                    "desc": "..."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "perception",
+                            "label": "Percéption",
+                            "desc": "",
+                            "labelgroupe": "de tir",
+                            "cs": [
+                                {
+                                    "id": "lancer_objet",
+                                    "label": "Lancer d'objet",
+                                    "desc": "..."
+                                },
+                                {
+                                    "id": "jet",
+                                    "label": "Arme de jet",
+                                    "desc": "..."
+                                },{
+                                    "id": "tir",
+                                    "label": "Arme de tir",
+                                    "desc": "..."
+                                }
+                            ]
+                        },
+                        {
+                            "id": "chance",
+                            "label": "Chance",
+                            "desc": "",
+                            "labelgroupe": "magiques",
+                            "cs": [
+                                {
+                                    "id": "prière",
+                                    "label": "Prière",
+                                    "desc": "..."
+                                },
+                                {
+                                    "id": "magie_sauvage",
+                                    "label": "Magie sauvage",
+                                    "desc": "..."
+                                },{
+                                    "id": "res_magie",
+                                    "label": "Résistance à la magie",
+                                    "desc": "..."
+                                }
+                            ]
+                        }
+                    ],
+                    "g_talents": [
+                        {
+                            "id": "g1",
+                            "label": "Groupe 1",
+                            "talent": [
+                                {
+                                    "id": "talent1",
+                                    "niv": 1,
+                                    "res": "...",
+                                    "desc": "...",
+                                    "exp": "...",
+                                    "peuples": [
+                                        {
+                                           "id": "commun" 
+                                        }
+                                    ],
+                                    "caste": null,
+                                    "corps": [{"id": 1},{"id":3}],
+                                    "cp": [
+                                        { "id": "force", "value": 15 }
+                                    ],
+                                    "cs": [
+                                        { "id": "arme", "value": 15 }
+                                    ]
+                                },
+                                {
+                                    "id": "talent2",
+                                    "niv": 2,
+                                    "res": "...",
+                                    "desc": "...",
+                                    "exp": "...",
+                                    "peuples": [
+                                        {
+                                           "id": "commun" 
+                                        }
+                                    ],
+                                    "caste": null,
+                                    "corps": [{"id": 1},{"id":3}],
+                                    "cp": [
+                                        { "id": "force", "value": 15 }
+                                    ],
+                                    "cs": [
+                                        { "id": "arme", "value": 15 }
+                                    ]
+                                },
+                                {
+                                    "id": "talent3",
+                                    "niv": 3,
+                                    "res": "...",
+                                    "desc": "...",
+                                    "exp": "...",
+                                    "peuples": [
+                                        {
+                                           "id": "commun" 
+                                        }
+                                    ],
+                                    "caste": null,
+                                    "corps": [{"id": 1},{"id":3}],
+                                    "cp": [
+                                        { "id": "force", "value": 15 }
+                                    ],
+                                    "cs": [
+                                        { "id": "arme", "value": 15 }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "g2",
+                            "label": "Groupe 2",
+                            "talent": [
+                                {
+                                    "id": "talent1",
+                                    "niv": 1,
+                                    "res": "...",
+                                    "desc": "...",
+                                    "exp": "...",
+                                    "peuples": [
+                                        {
+                                           "id": "commun" 
+                                        }
+                                    ],
+                                    "caste": null,
+                                    "corps": [{"id": 1},{"id":3}],
+                                    "cp": [
+                                        { "id": "force", "value": 15 }
+                                    ],
+                                    "cs": [
+                                        { "id": "arme", "value": 15 }
+                                    ]
+                                },
+                                {
+                                    "id": "talent2",
+                                    "niv": 2,
+                                    "res": "...",
+                                    "desc": "...",
+                                    "exp": "...",
+                                    "peuples": [
+                                        {
+                                           "id": "commun" 
+                                        }
+                                    ],
+                                    "caste": null,
+                                    "corps": [{"id": 1},{"id":3}],
+                                    "cp": [
+                                        { "id": "force", "value": 15 }
+                                    ],
+                                    "cs": [
+                                        { "id": "arme", "value": 15 }
+                                    ]
+                                },
+                                {
+                                    "id": "talent3",
+                                    "niv": 3,
+                                    "res": "...",
+                                    "desc": "...",
+                                    "exp": "...",
+                                    "peuples": [
+                                        {
+                                           "id": "commun" 
+                                        }
+                                    ],
+                                    "caste": null,
+                                    "corps": [{"id": 1},{"id":3}],
+                                    "cp": [
+                                        { "id": "force", "value": 15 }
+                                    ],
+                                    "cs": [
+                                        { "id": "arme", "value": 15 }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "g3",
+                            "label": "Groupe 3",
+                            "talent": [
+                                {
+                                    "id": "talent1",
+                                    "niv": 1,
+                                    "res": "...",
+                                    "desc": "...",
+                                    "exp": "...",
+                                    "peuples": [
+                                        {
+                                           "id": "commun" 
+                                        }
+                                    ],
+                                    "caste": null,
+                                    "corps": [{"id": 1},{"id":3}],
+                                    "cp": [
+                                        { "id": "force", "value": 15 }
+                                    ],
+                                    "cs": [
+                                        { "id": "arme", "value": 15 }
+                                    ]
+                                },
+                                {
+                                    "id": "talent2",
+                                    "niv": 2,
+                                    "res": "...",
+                                    "desc": "...",
+                                    "exp": "...",
+                                    "peuples": [
+                                        {
+                                           "id": "commun" 
+                                        }
+                                    ],
+                                    "caste": null,
+                                    "corps": [{"id": 1},{"id":3}],
+                                    "cp": [
+                                        { "id": "force", "value": 15 }
+                                    ],
+                                    "cs": [
+                                        { "id": "arme", "value": 15 }
+                                    ]
+                                },
+                                {
+                                    "id": "talent3",
+                                    "niv": 3,
+                                    "res": "...",
+                                    "desc": "...",
+                                    "exp": "...",
+                                    "peuples": [
+                                        {
+                                           "id": "commun" 
+                                        }
+                                    ],
+                                    "caste": null,
+                                    "corps": [{"id": 1},{"id":3}],
+                                    "cp": [
+                                        { "id": "force", "value": 15 }
+                                    ],
+                                    "cs": [
+                                        { "id": "arme", "value": 15 }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "g_tares": [
+                        {
+                            "id": "g1",
+                            "label": "Groupe 1",
+                            "talent": [
+                                {
+                                    "id": "tare1",
+                                    "niv": 1,
+                                    "res": "...",
+                                    "desc": "...",
+                                    "exp": "...",
+                                    "peuples": [
+                                        {
+                                           "id": "commun" 
+                                        }
+                                    ],
+                                    "caste": null,
+                                    "corps": [{"id": 1},{"id":3}],
+                                    "cp": [
+                                        { "id": "force", "value": 15 }
+                                    ],
+                                    "cs": [
+                                        { "id": "arme", "value": 15 }
+                                    ]
+                                },
+                                {
+                                    "id": "tare2",
+                                    "niv": 2,
+                                    "res": "...",
+                                    "desc": "...",
+                                    "exp": "...",
+                                    "peuples": [
+                                        {
+                                           "id": "commun" 
+                                        }
+                                    ],
+                                    "caste": null,
+                                    "corps": [{"id": 1},{"id":3}],
+                                    "cp": [
+                                        { "id": "force", "value": 15 }
+                                    ],
+                                    "cs": [
+                                        { "id": "arme", "value": 15 }
+                                    ]
+                                },
+                                {
+                                    "id": "tare3",
+                                    "niv": 3,
+                                    "res": "...",
+                                    "desc": "...",
+                                    "exp": "...",
+                                    "peuples": [
+                                        {
+                                           "id": "commun" 
+                                        }
+                                    ],
+                                    "caste": null,
+                                    "corps": [{"id": 1},{"id":3}],
+                                    "cp": [
+                                        { "id": "force", "value": 15 }
+                                    ],
+                                    "cs": [
+                                        { "id": "arme", "value": 15 }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "g2",
+                            "label": "Groupe 2",
+                            "talent": [
+                                {
+                                    "id": "tare1",
+                                    "niv": 1,
+                                    "res": "...",
+                                    "desc": "...",
+                                    "exp": "...",
+                                    "peuples": [
+                                        {
+                                           "id": "commun" 
+                                        }
+                                    ],
+                                    "caste": null,
+                                    "corps": [{"id": 1},{"id":3}],
+                                    "cp": [
+                                        { "id": "force", "value": 15 }
+                                    ],
+                                    "cs": [
+                                        { "id": "arme", "value": 15 }
+                                    ]
+                                },
+                                {
+                                    "id": "tare2",
+                                    "niv": 2,
+                                    "res": "...",
+                                    "desc": "...",
+                                    "exp": "...",
+                                    "peuples": [
+                                        {
+                                           "id": "commun" 
+                                        }
+                                    ],
+                                    "caste": null,
+                                    "corps": [{"id": 1},{"id":3}],
+                                    "cp": [
+                                        { "id": "force", "value": 15 }
+                                    ],
+                                    "cs": [
+                                        { "id": "arme", "value": 15 }
+                                    ]
+                                },
+                                {
+                                    "id": "tare3",
+                                    "niv": 3,
+                                    "res": "...",
+                                    "desc": "...",
+                                    "exp": "...",
+                                    "peuples": [
+                                        {
+                                           "id": "commun" 
+                                        }
+                                    ],
+                                    "caste": null,
+                                    "corps": [{"id": 1},{"id":3}],
+                                    "cp": [
+                                        { "id": "force", "value": 15 }
+                                    ],
+                                    "cs": [
+                                        { "id": "arme", "value": 15 }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "g3",
+                            "label": "Groupe 3",
+                            "talent": [
+                                {
+                                    "id": "tare1",
+                                    "niv": 1,
+                                    "res": "...",
+                                    "desc": "...",
+                                    "exp": "...",
+                                    "peuples": [
+                                        {
+                                           "id": "commun" 
+                                        }
+                                    ],
+                                    "caste": null,
+                                    "corps": [{"id": 1},{"id":3}],
+                                    "cp": [
+                                        { "id": "force", "value": 15 }
+                                    ],
+                                    "cs": [
+                                        { "id": "arme", "value": 15 }
+                                    ]
+                                },
+                                {
+                                    "id": "tare2",
+                                    "niv": 2,
+                                    "res": "...",
+                                    "desc": "...",
+                                    "exp": "...",
+                                    "peuples": [
+                                        {
+                                           "id": "commun" 
+                                        }
+                                    ],
+                                    "caste": null,
+                                    "corps": [{"id": 1},{"id":3}],
+                                    "cp": [
+                                        { "id": "force", "value": 15 }
+                                    ],
+                                    "cs": [
+                                        { "id": "arme", "value": 15 }
+                                    ]
+                                },
+                                {
+                                    "id": "tare3",
+                                    "niv": 3,
+                                    "res": "...",
+                                    "desc": "...",
+                                    "exp": "...",
+                                    "peuples": [
+                                        { "id": "commun" }
+                                    ],
+                                    "caste": null,
+                                    "corps": [{"id": 1},{"id":3}],
+                                    "cp": [
+                                        { "id": "force", "value": 15 }
+                                    ],
+                                    "cs": [
+                                        { "id": "arme", "value": 15 }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "origines": [
+                        {
+                            "id": "petaoushnok",
+                            "label": "Petaoushnok",
+                            "desc": "...",
+                            "img": "petaoushnok"
+                        }
+                    ],
+                    "corpulences": [
+                        {
+                            "id": 1,
+                            "label": "squelette",
+                            "min": 0,
+                            "max": 5,
+                            "talents": [
+                                { "id": "" }
+                            ],
+                            "tares": [
+                                { "id": "" }
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "label": "maigre",
+                            "min": 6,
+                            "max": 10,
+                            "talents": [
+                                { "id": "" }
+                            ],
+                            "tares": [
+                                { "id": "" }
+                            ]
+                        },
+                        {
+                            "id": 3,
+                            "label": "normal",
+                            "min": 11,
+                            "max": 20
+                        },
+                        {
+                            "id": 4,
+                            "label": "fort",
+                            "min": 21,
+                            "max": 25,
+                            "talents": [
+                                { "id": "" }
+                            ],
+                            "tares": [
+                                { "id": "" }
+                            ]
+                        },
+                        {
+                            "id": 5,
+                            "label": "gros",
+                            "min": 26,
+                            "max": 30,
+                            "talents": [
+                                { "id": "" }
+                            ],
+                            "tares": [
+                                { "id": "" }
+                            ]
+                        }
+                    ],
+                    
+                    "calcul_cs": [
+                        {
+                            "id": "galdeain",
+                            "cp": [
+                                {
+                                    "id": "intelligence",
+                                    "value": 7,
+                                    "calcule": [
+                                        { "id": 1, "min": 1, "max": 3, "value": 2 },
+                                        { "id": 2, "min": 4, "max": 7, "value": 5 },
+                                        { "id": 3, "min": 8, "max": 10, "value": 7 },
+                                        { "id": 4, "min": 11, "max": 13, "value": 9 },
+                                        { "id": 5, "min": 14, "max": 16, "value": 12 },
+                                        { "id": 6, "min": 17, "max": 19, "value": 14 },
+                                        { "id": 7, "min": 20, "max": 21, "value": 16 }
+                                    ]
+                                },
+                                {
+                                    "id": "charisme",,
+                                    "value": 7,
+                                    "calcule": [
+                                        { "id": 1, "min": 1, "max": 3, "value": 2 },
+                                        { "id": 2, "min": 4, "max": 7, "value": 5 },
+                                        { "id": 3, "min": 8, "max": 10, "value": 7 },
+                                        { "id": 4, "min": 11, "max": 13, "value": 9 },
+                                        { "id": 5, "min": 14, "max": 16, "value": 12 },
+                                        { "id": 6, "min": 17, "max": 19, "value": 14 },
+                                        { "id": 7, "min": 20, "max": 21, "value": 16 }
+                                    ]
+                                },
+                                {
+                                    "id": "agilite",,
+                                    "value": 7,
+                                    "calcule": [
+                                        { "id": 1, "min": 1, "max": 3, "value": 2 },
+                                        { "id": 2, "min": 4, "max": 7, "value": 5 },
+                                        { "id": 3, "min": 8, "max": 10, "value": 7 },
+                                        { "id": 4, "min": 11, "max": 13, "value": 9 },
+                                        { "id": 5, "min": 14, "max": 16, "value": 12 },
+                                        { "id": 6, "min": 17, "max": 19, "value": 14 },
+                                        { "id": 7, "min": 20, "max": 21, "value": 16 }
+                                    ]
+                                },
+                                {
+                                    "id": "initiative",,
+                                    "value": 7,
+                                    "calcule": [
+                                        { "id": 1, "min": 1, "max": 3, "value": 2 },
+                                        { "id": 2, "min": 4, "max": 7, "value": 5 },
+                                        { "id": 3, "min": 8, "max": 10, "value": 7 },
+                                        { "id": 4, "min": 11, "max": 13, "value": 9 },
+                                        { "id": 5, "min": 14, "max": 16, "value": 12 },
+                                        { "id": 6, "min": 17, "max": 19, "value": 14 },
+                                        { "id": 7, "min": 20, "max": 21, "value": 16 }
+                                    ]
+                                },
+                                {
+                                    "id": "constitution",,
+                                    "value": 7,
+                                    "calcule": [
+                                        { "id": 1, "min": 1, "max": 3, "value": 2 },
+                                        { "id": 2, "min": 4, "max": 7, "value": 5 },
+                                        { "id": 3, "min": 8, "max": 10, "value": 7 },
+                                        { "id": 4, "min": 11, "max": 13, "value": 9 },
+                                        { "id": 5, "min": 14, "max": 16, "value": 12 },
+                                        { "id": 6, "min": 17, "max": 19, "value": 14 },
+                                        { "id": 7, "min": 20, "max": 21, "value": 16 }
+                                    ]
+                                },
+                                {
+                                    "id": "force",,
+                                    "value": 7,
+                                    "calcule": [
+                                        { "id": 1, "min": 1, "max": 3, "value": 2 },
+                                        { "id": 2, "min": 4, "max": 7, "value": 5 },
+                                        { "id": 3, "min": 8, "max": 10, "value": 7 },
+                                        { "id": 4, "min": 11, "max": 13, "value": 9 },
+                                        { "id": 5, "min": 14, "max": 16, "value": 12 },
+                                        { "id": 6, "min": 17, "max": 19, "value": 14 },
+                                        { "id": 7, "min": 20, "max": 21, "value": 16 }
+                                    ]
+                                },
+                                {
+                                    "id": "perception",,
+                                    "value": 7,
+                                    "calcule": [
+                                        { "id": 1, "min": 1, "max": 3, "value": 2 },
+                                        { "id": 2, "min": 4, "max": 7, "value": 5 },
+                                        { "id": 3, "min": 8, "max": 10, "value": 7 },
+                                        { "id": 4, "min": 11, "max": 13, "value": 9 },
+                                        { "id": 5, "min": 14, "max": 16, "value": 12 },
+                                        { "id": 6, "min": 17, "max": 19, "value": 14 },
+                                        { "id": 7, "min": 20, "max": 21, "value": 16 }
+                                    ]
+                                },
+                                {
+                                    "id": "chance",,
+                                    "value": 7,
+                                    "calcule": [
+                                        { "id": 1, "min": 1, "max": 3, "value": 2 },
+                                        { "id": 2, "min": 4, "max": 7, "value": 5 },
+                                        { "id": 3, "min": 8, "max": 10, "value": 7 },
+                                        { "id": 4, "min": 11, "max": 13, "value": 9 },
+                                        { "id": 5, "min": 14, "max": 16, "value": 12 },
+                                        { "id": 6, "min": 17, "max": 19, "value": 14 },
+                                        { "id": 7, "min": 20, "max": 21, "value": 16 }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "erin",
+                            "cp": [
+                                {
+                                    "id": "intelligence",
+                                    "value": 7,
+                                    "calcule": [
+                                        { "id": 1, "min": 1, "max": 3, "value": 2 },
+                                        { "id": 2, "min": 4, "max": 7, "value": 5 },
+                                        { "id": 3, "min": 8, "max": 10, "value": 7 },
+                                        { "id": 4, "min": 11, "max": 13, "value": 9 },
+                                        { "id": 5, "min": 14, "max": 16, "value": 12 },
+                                        { "id": 6, "min": 17, "max": 19, "value": 14 },
+                                        { "id": 7, "min": 20, "max": 21, "value": 16 }
+                                    ]
+                                },
+                                {
+                                    "id": "charisme",,
+                                    "value": 7,
+                                    "calcule": [
+                                        { "id": 1, "min": 1, "max": 3, "value": 2 },
+                                        { "id": 2, "min": 4, "max": 7, "value": 5 },
+                                        { "id": 3, "min": 8, "max": 10, "value": 7 },
+                                        { "id": 4, "min": 11, "max": 13, "value": 9 },
+                                        { "id": 5, "min": 14, "max": 16, "value": 12 },
+                                        { "id": 6, "min": 17, "max": 19, "value": 14 },
+                                        { "id": 7, "min": 20, "max": 21, "value": 16 }
+                                    ]
+                                },
+                                {
+                                    "id": "agilite",,
+                                    "value": 7,
+                                    "calcule": [
+                                        { "id": 1, "min": 1, "max": 3, "value": 2 },
+                                        { "id": 2, "min": 4, "max": 7, "value": 5 },
+                                        { "id": 3, "min": 8, "max": 10, "value": 7 },
+                                        { "id": 4, "min": 11, "max": 13, "value": 9 },
+                                        { "id": 5, "min": 14, "max": 16, "value": 12 },
+                                        { "id": 6, "min": 17, "max": 19, "value": 14 },
+                                        { "id": 7, "min": 20, "max": 21, "value": 16 }
+                                    ]
+                                },
+                                {
+                                    "id": "initiative",,
+                                    "value": 7,
+                                    "calcule": [
+                                        { "id": 1, "min": 1, "max": 3, "value": 2 },
+                                        { "id": 2, "min": 4, "max": 7, "value": 5 },
+                                        { "id": 3, "min": 8, "max": 10, "value": 7 },
+                                        { "id": 4, "min": 11, "max": 13, "value": 9 },
+                                        { "id": 5, "min": 14, "max": 16, "value": 12 },
+                                        { "id": 6, "min": 17, "max": 19, "value": 14 },
+                                        { "id": 7, "min": 20, "max": 21, "value": 16 }
+                                    ]
+                                },
+                                {
+                                    "id": "constitution",,
+                                    "value": 7,
+                                    "calcule": [
+                                        { "id": 1, "min": 1, "max": 3, "value": 2 },
+                                        { "id": 2, "min": 4, "max": 7, "value": 5 },
+                                        { "id": 3, "min": 8, "max": 10, "value": 7 },
+                                        { "id": 4, "min": 11, "max": 13, "value": 9 },
+                                        { "id": 5, "min": 14, "max": 16, "value": 12 },
+                                        { "id": 6, "min": 17, "max": 19, "value": 14 },
+                                        { "id": 7, "min": 20, "max": 21, "value": 16 }
+                                    ]
+                                },
+                                {
+                                    "id": "force",,
+                                    "value": 7,
+                                    "calcule": [
+                                        { "id": 1, "min": 1, "max": 3, "value": 2 },
+                                        { "id": 2, "min": 4, "max": 7, "value": 5 },
+                                        { "id": 3, "min": 8, "max": 10, "value": 7 },
+                                        { "id": 4, "min": 11, "max": 13, "value": 9 },
+                                        { "id": 5, "min": 14, "max": 16, "value": 12 },
+                                        { "id": 6, "min": 17, "max": 19, "value": 14 },
+                                        { "id": 7, "min": 20, "max": 21, "value": 16 }
+                                    ]
+                                },
+                                {
+                                    "id": "perception",,
+                                    "value": 7,
+                                    "calcule": [
+                                        { "id": 1, "min": 1, "max": 3, "value": 2 },
+                                        { "id": 2, "min": 4, "max": 7, "value": 5 },
+                                        { "id": 3, "min": 8, "max": 10, "value": 7 },
+                                        { "id": 4, "min": 11, "max": 13, "value": 9 },
+                                        { "id": 5, "min": 14, "max": 16, "value": 12 },
+                                        { "id": 6, "min": 17, "max": 19, "value": 14 },
+                                        { "id": 7, "min": 20, "max": 21, "value": 16 }
+                                    ]
+                                },
+                                {
+                                    "id": "chance",,
+                                    "value": 7,
+                                    "calcule": [
+                                        { "id": 1, "min": 1, "max": 3, "value": 2 },
+                                        { "id": 2, "min": 4, "max": 7, "value": 5 },
+                                        { "id": 3, "min": 8, "max": 10, "value": 7 },
+                                        { "id": 4, "min": 11, "max": 13, "value": 9 },
+                                        { "id": 5, "min": 14, "max": 16, "value": 12 },
+                                        { "id": 6, "min": 17, "max": 19, "value": 14 },
+                                        { "id": 7, "min": 20, "max": 21, "value": 16 }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "herscheur",
+                            "cp": [
+                                {
+                                    "id": "intelligence",
+                                    "value": 7,
+                                    "calcule": [
+                                        { "id": 1, "min": 1, "max": 3, "value": 2 },
+                                        { "id": 2, "min": 4, "max": 7, "value": 5 },
+                                        { "id": 3, "min": 8, "max": 10, "value": 7 },
+                                        { "id": 4, "min": 11, "max": 13, "value": 9 },
+                                        { "id": 5, "min": 14, "max": 16, "value": 12 },
+                                        { "id": 6, "min": 17, "max": 19, "value": 14 },
+                                        { "id": 7, "min": 20, "max": 21, "value": 16 }
+                                    ]
+                                },
+                                {
+                                    "id": "charisme",,
+                                    "value": 7,
+                                    "calcule": [
+                                        { "id": 1, "min": 1, "max": 3, "value": 2 },
+                                        { "id": 2, "min": 4, "max": 7, "value": 5 },
+                                        { "id": 3, "min": 8, "max": 10, "value": 7 },
+                                        { "id": 4, "min": 11, "max": 13, "value": 9 },
+                                        { "id": 5, "min": 14, "max": 16, "value": 12 },
+                                        { "id": 6, "min": 17, "max": 19, "value": 14 },
+                                        { "id": 7, "min": 20, "max": 21, "value": 16 }
+                                    ]
+                                },
+                                {
+                                    "id": "agilite",,
+                                    "value": 7,
+                                    "calcule": [
+                                        { "id": 1, "min": 1, "max": 3, "value": 2 },
+                                        { "id": 2, "min": 4, "max": 7, "value": 5 },
+                                        { "id": 3, "min": 8, "max": 10, "value": 7 },
+                                        { "id": 4, "min": 11, "max": 13, "value": 9 },
+                                        { "id": 5, "min": 14, "max": 16, "value": 12 },
+                                        { "id": 6, "min": 17, "max": 19, "value": 14 },
+                                        { "id": 7, "min": 20, "max": 21, "value": 16 }
+                                    ]
+                                },
+                                {
+                                    "id": "initiative",,
+                                    "value": 7,
+                                    "calcule": [
+                                        { "id": 1, "min": 1, "max": 3, "value": 2 },
+                                        { "id": 2, "min": 4, "max": 7, "value": 5 },
+                                        { "id": 3, "min": 8, "max": 10, "value": 7 },
+                                        { "id": 4, "min": 11, "max": 13, "value": 9 },
+                                        { "id": 5, "min": 14, "max": 16, "value": 12 },
+                                        { "id": 6, "min": 17, "max": 19, "value": 14 },
+                                        { "id": 7, "min": 20, "max": 21, "value": 16 }
+                                    ]
+                                },
+                                {
+                                    "id": "constitution",,
+                                    "value": 7,
+                                    "calcule": [
+                                        { "id": 1, "min": 1, "max": 3, "value": 2 },
+                                        { "id": 2, "min": 4, "max": 7, "value": 5 },
+                                        { "id": 3, "min": 8, "max": 10, "value": 7 },
+                                        { "id": 4, "min": 11, "max": 13, "value": 9 },
+                                        { "id": 5, "min": 14, "max": 16, "value": 12 },
+                                        { "id": 6, "min": 17, "max": 19, "value": 14 },
+                                        { "id": 7, "min": 20, "max": 21, "value": 16 }
+                                    ]
+                                },
+                                {
+                                    "id": "force",,
+                                    "value": 7,
+                                    "calcule": [
+                                        { "id": 1, "min": 1, "max": 3, "value": 2 },
+                                        { "id": 2, "min": 4, "max": 7, "value": 5 },
+                                        { "id": 3, "min": 8, "max": 10, "value": 7 },
+                                        { "id": 4, "min": 11, "max": 13, "value": 9 },
+                                        { "id": 5, "min": 14, "max": 16, "value": 12 },
+                                        { "id": 6, "min": 17, "max": 19, "value": 14 },
+                                        { "id": 7, "min": 20, "max": 21, "value": 16 }
+                                    ]
+                                },
+                                {
+                                    "id": "perception",,
+                                    "value": 7,
+                                    "calcule": [
+                                        { "id": 1, "min": 1, "max": 3, "value": 2 },
+                                        { "id": 2, "min": 4, "max": 7, "value": 5 },
+                                        { "id": 3, "min": 8, "max": 10, "value": 7 },
+                                        { "id": 4, "min": 11, "max": 13, "value": 9 },
+                                        { "id": 5, "min": 14, "max": 16, "value": 12 },
+                                        { "id": 6, "min": 17, "max": 19, "value": 14 },
+                                        { "id": 7, "min": 20, "max": 21, "value": 16 }
+                                    ]
+                                },
+                                {
+                                    "id": "chance",,
+                                    "value": 7,
+                                    "calcule": [
+                                        { "id": 1, "min": 1, "max": 3, "value": 2 },
+                                        { "id": 2, "min": 4, "max": 7, "value": 5 },
+                                        { "id": 3, "min": 8, "max": 10, "value": 7 },
+                                        { "id": 4, "min": 11, "max": 13, "value": 9 },
+                                        { "id": 5, "min": 14, "max": 16, "value": 12 },
+                                        { "id": 6, "min": 17, "max": 19, "value": 14 },
+                                        { "id": 7, "min": 20, "max": 21, "value": 16 }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "gnome",
+                            "cp": [
+                                {
+                                    "id": "intelligence",
+                                    "value": 7,
+                                    "calcule": [
+                                        { "id": 1, "min": 1, "max": 3, "value": 2 },
+                                        { "id": 2, "min": 4, "max": 7, "value": 5 },
+                                        { "id": 3, "min": 8, "max": 10, "value": 7 },
+                                        { "id": 4, "min": 11, "max": 13, "value": 9 },
+                                        { "id": 5, "min": 14, "max": 16, "value": 12 },
+                                        { "id": 6, "min": 17, "max": 19, "value": 14 },
+                                        { "id": 7, "min": 20, "max": 21, "value": 16 }
+                                    ]
+                                },
+                                {
+                                    "id": "charisme",,
+                                    "value": 7,
+                                    "calcule": [
+                                        { "id": 1, "min": 1, "max": 3, "value": 2 },
+                                        { "id": 2, "min": 4, "max": 7, "value": 5 },
+                                        { "id": 3, "min": 8, "max": 10, "value": 7 },
+                                        { "id": 4, "min": 11, "max": 13, "value": 9 },
+                                        { "id": 5, "min": 14, "max": 16, "value": 12 },
+                                        { "id": 6, "min": 17, "max": 19, "value": 14 },
+                                        { "id": 7, "min": 20, "max": 21, "value": 16 }
+                                    ]
+                                },
+                                {
+                                    "id": "agilite",,
+                                    "value": 7,
+                                    "calcule": [
+                                        { "id": 1, "min": 1, "max": 3, "value": 2 },
+                                        { "id": 2, "min": 4, "max": 7, "value": 5 },
+                                        { "id": 3, "min": 8, "max": 10, "value": 7 },
+                                        { "id": 4, "min": 11, "max": 13, "value": 9 },
+                                        { "id": 5, "min": 14, "max": 16, "value": 12 },
+                                        { "id": 6, "min": 17, "max": 19, "value": 14 },
+                                        { "id": 7, "min": 20, "max": 21, "value": 16 }
+                                    ]
+                                },
+                                {
+                                    "id": "initiative",,
+                                    "value": 7,
+                                    "calcule": [
+                                        { "id": 1, "min": 1, "max": 3, "value": 2 },
+                                        { "id": 2, "min": 4, "max": 7, "value": 5 },
+                                        { "id": 3, "min": 8, "max": 10, "value": 7 },
+                                        { "id": 4, "min": 11, "max": 13, "value": 9 },
+                                        { "id": 5, "min": 14, "max": 16, "value": 12 },
+                                        { "id": 6, "min": 17, "max": 19, "value": 14 },
+                                        { "id": 7, "min": 20, "max": 21, "value": 16 }
+                                    ]
+                                },
+                                {
+                                    "id": "constitution",,
+                                    "value": 7,
+                                    "calcule": [
+                                        { "id": 1, "min": 1, "max": 3, "value": 2 },
+                                        { "id": 2, "min": 4, "max": 7, "value": 5 },
+                                        { "id": 3, "min": 8, "max": 10, "value": 7 },
+                                        { "id": 4, "min": 11, "max": 13, "value": 9 },
+                                        { "id": 5, "min": 14, "max": 16, "value": 12 },
+                                        { "id": 6, "min": 17, "max": 19, "value": 14 },
+                                        { "id": 7, "min": 20, "max": 21, "value": 16 }
+                                    ]
+                                },
+                                {
+                                    "id": "force",,
+                                    "value": 7,
+                                    "calcule": [
+                                        { "id": 1, "min": 1, "max": 3, "value": 2 },
+                                        { "id": 2, "min": 4, "max": 7, "value": 5 },
+                                        { "id": 3, "min": 8, "max": 10, "value": 7 },
+                                        { "id": 4, "min": 11, "max": 13, "value": 9 },
+                                        { "id": 5, "min": 14, "max": 16, "value": 12 },
+                                        { "id": 6, "min": 17, "max": 19, "value": 14 },
+                                        { "id": 7, "min": 20, "max": 21, "value": 16 }
+                                    ]
+                                },
+                                {
+                                    "id": "perception",,
+                                    "value": 7,
+                                    "calcule": [
+                                        { "id": 1, "min": 1, "max": 3, "value": 2 },
+                                        { "id": 2, "min": 4, "max": 7, "value": 5 },
+                                        { "id": 3, "min": 8, "max": 10, "value": 7 },
+                                        { "id": 4, "min": 11, "max": 13, "value": 9 },
+                                        { "id": 5, "min": 14, "max": 16, "value": 12 },
+                                        { "id": 6, "min": 17, "max": 19, "value": 14 },
+                                        { "id": 7, "min": 20, "max": 21, "value": 16 }
+                                    ]
+                                },
+                                {
+                                    "id": "chance",,
+                                    "value": 7,
+                                    "calcule": [
+                                        { "id": 1, "min": 1, "max": 3, "value": 2 },
+                                        { "id": 2, "min": 4, "max": 7, "value": 5 },
+                                        { "id": 3, "min": 8, "max": 10, "value": 7 },
+                                        { "id": 4, "min": 11, "max": 13, "value": 9 },
+                                        { "id": 5, "min": 14, "max": 16, "value": 12 },
+                                        { "id": 6, "min": 17, "max": 19, "value": 14 },
+                                        { "id": 7, "min": 20, "max": 21, "value": 16 }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "nekoji",
+                            "cp": [
+                                {
+                                    "id": "intelligence",
+                                    "value": 7,
+                                    "calcule": [
+                                        { "id": 1, "min": 1, "max": 3, "value": 2 },
+                                        { "id": 2, "min": 4, "max": 7, "value": 5 },
+                                        { "id": 3, "min": 8, "max": 10, "value": 7 },
+                                        { "id": 4, "min": 11, "max": 13, "value": 9 },
+                                        { "id": 5, "min": 14, "max": 16, "value": 12 },
+                                        { "id": 6, "min": 17, "max": 19, "value": 14 },
+                                        { "id": 7, "min": 20, "max": 21, "value": 16 }
+                                    ]
+                                },
+                                {
+                                    "id": "charisme",,
+                                    "value": 7,
+                                    "calcule": [
+                                        { "id": 1, "min": 1, "max": 3, "value": 2 },
+                                        { "id": 2, "min": 4, "max": 7, "value": 5 },
+                                        { "id": 3, "min": 8, "max": 10, "value": 7 },
+                                        { "id": 4, "min": 11, "max": 13, "value": 9 },
+                                        { "id": 5, "min": 14, "max": 16, "value": 12 },
+                                        { "id": 6, "min": 17, "max": 19, "value": 14 },
+                                        { "id": 7, "min": 20, "max": 21, "value": 16 }
+                                    ]
+                                },
+                                {
+                                    "id": "agilite",,
+                                    "value": 7,
+                                    "calcule": [
+                                        { "id": 1, "min": 1, "max": 3, "value": 2 },
+                                        { "id": 2, "min": 4, "max": 7, "value": 5 },
+                                        { "id": 3, "min": 8, "max": 10, "value": 7 },
+                                        { "id": 4, "min": 11, "max": 13, "value": 9 },
+                                        { "id": 5, "min": 14, "max": 16, "value": 12 },
+                                        { "id": 6, "min": 17, "max": 19, "value": 14 },
+                                        { "id": 7, "min": 20, "max": 21, "value": 16 }
+                                    ]
+                                },
+                                {
+                                    "id": "initiative",,
+                                    "value": 7,
+                                    "calcule": [
+                                        { "id": 1, "min": 1, "max": 3, "value": 2 },
+                                        { "id": 2, "min": 4, "max": 7, "value": 5 },
+                                        { "id": 3, "min": 8, "max": 10, "value": 7 },
+                                        { "id": 4, "min": 11, "max": 13, "value": 9 },
+                                        { "id": 5, "min": 14, "max": 16, "value": 12 },
+                                        { "id": 6, "min": 17, "max": 19, "value": 14 },
+                                        { "id": 7, "min": 20, "max": 21, "value": 16 }
+                                    ]
+                                },
+                                {
+                                    "id": "constitution",,
+                                    "value": 7,
+                                    "calcule": [
+                                        { "id": 1, "min": 1, "max": 3, "value": 2 },
+                                        { "id": 2, "min": 4, "max": 7, "value": 5 },
+                                        { "id": 3, "min": 8, "max": 10, "value": 7 },
+                                        { "id": 4, "min": 11, "max": 13, "value": 9 },
+                                        { "id": 5, "min": 14, "max": 16, "value": 12 },
+                                        { "id": 6, "min": 17, "max": 19, "value": 14 },
+                                        { "id": 7, "min": 20, "max": 21, "value": 16 }
+                                    ]
+                                },
+                                {
+                                    "id": "force",,
+                                    "value": 7,
+                                    "calcule": [
+                                        { "id": 1, "min": 1, "max": 3, "value": 2 },
+                                        { "id": 2, "min": 4, "max": 7, "value": 5 },
+                                        { "id": 3, "min": 8, "max": 10, "value": 7 },
+                                        { "id": 4, "min": 11, "max": 13, "value": 9 },
+                                        { "id": 5, "min": 14, "max": 16, "value": 12 },
+                                        { "id": 6, "min": 17, "max": 19, "value": 14 },
+                                        { "id": 7, "min": 20, "max": 21, "value": 16 }
+                                    ]
+                                },
+                                {
+                                    "id": "perception",,
+                                    "value": 7,
+                                    "calcule": [
+                                        { "id": 1, "min": 1, "max": 3, "value": 2 },
+                                        { "id": 2, "min": 4, "max": 7, "value": 5 },
+                                        { "id": 3, "min": 8, "max": 10, "value": 7 },
+                                        { "id": 4, "min": 11, "max": 13, "value": 9 },
+                                        { "id": 5, "min": 14, "max": 16, "value": 12 },
+                                        { "id": 6, "min": 17, "max": 19, "value": 14 },
+                                        { "id": 7, "min": 20, "max": 21, "value": 16 }
+                                    ]
+                                },
+                                {
+                                    "id": "chance",,
+                                    "value": 7,
+                                    "calcule": [
+                                        { "id": 1, "min": 1, "max": 3, "value": 2 },
+                                        { "id": 2, "min": 4, "max": 7, "value": 5 },
+                                        { "id": 3, "min": 8, "max": 10, "value": 7 },
+                                        { "id": 4, "min": 11, "max": 13, "value": 9 },
+                                        { "id": 5, "min": 14, "max": 16, "value": 12 },
+                                        { "id": 6, "min": 17, "max": 19, "value": 14 },
+                                        { "id": 7, "min": 20, "max": 21, "value": 16 }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "fee",
+                            "cp": [
+                                {
+                                    "id": "intelligence",
+                                    "value": 7,
+                                    "calcule": [
+                                        { "id": 1, "min": 1, "max": 3, "value": 2 },
+                                        { "id": 2, "min": 4, "max": 7, "value": 5 },
+                                        { "id": 3, "min": 8, "max": 10, "value": 7 },
+                                        { "id": 4, "min": 11, "max": 13, "value": 9 },
+                                        { "id": 5, "min": 14, "max": 16, "value": 12 },
+                                        { "id": 6, "min": 17, "max": 19, "value": 14 },
+                                        { "id": 7, "min": 20, "max": 21, "value": 16 }
+                                    ]
+                                },
+                                {
+                                    "id": "charisme",,
+                                    "value": 7,
+                                    "calcule": [
+                                        { "id": 1, "min": 1, "max": 3, "value": 2 },
+                                        { "id": 2, "min": 4, "max": 7, "value": 5 },
+                                        { "id": 3, "min": 8, "max": 10, "value": 7 },
+                                        { "id": 4, "min": 11, "max": 13, "value": 9 },
+                                        { "id": 5, "min": 14, "max": 16, "value": 12 },
+                                        { "id": 6, "min": 17, "max": 19, "value": 14 },
+                                        { "id": 7, "min": 20, "max": 21, "value": 16 }
+                                    ]
+                                },
+                                {
+                                    "id": "agilite",,
+                                    "value": 7,
+                                    "calcule": [
+                                        { "id": 1, "min": 1, "max": 3, "value": 2 },
+                                        { "id": 2, "min": 4, "max": 7, "value": 5 },
+                                        { "id": 3, "min": 8, "max": 10, "value": 7 },
+                                        { "id": 4, "min": 11, "max": 13, "value": 9 },
+                                        { "id": 5, "min": 14, "max": 16, "value": 12 },
+                                        { "id": 6, "min": 17, "max": 19, "value": 14 },
+                                        { "id": 7, "min": 20, "max": 21, "value": 16 }
+                                    ]
+                                },
+                                {
+                                    "id": "initiative",,
+                                    "value": 7,
+                                    "calcule": [
+                                        { "id": 1, "min": 1, "max": 3, "value": 2 },
+                                        { "id": 2, "min": 4, "max": 7, "value": 5 },
+                                        { "id": 3, "min": 8, "max": 10, "value": 7 },
+                                        { "id": 4, "min": 11, "max": 13, "value": 9 },
+                                        { "id": 5, "min": 14, "max": 16, "value": 12 },
+                                        { "id": 6, "min": 17, "max": 19, "value": 14 },
+                                        { "id": 7, "min": 20, "max": 21, "value": 16 }
+                                    ]
+                                },
+                                {
+                                    "id": "constitution",,
+                                    "value": 7,
+                                    "calcule": [
+                                        { "id": 1, "min": 1, "max": 3, "value": 2 },
+                                        { "id": 2, "min": 4, "max": 7, "value": 5 },
+                                        { "id": 3, "min": 8, "max": 10, "value": 7 },
+                                        { "id": 4, "min": 11, "max": 13, "value": 9 },
+                                        { "id": 5, "min": 14, "max": 16, "value": 12 },
+                                        { "id": 6, "min": 17, "max": 19, "value": 14 },
+                                        { "id": 7, "min": 20, "max": 21, "value": 16 }
+                                    ]
+                                },
+                                {
+                                    "id": "force",,
+                                    "value": 7,
+                                    "calcule": [
+                                        { "id": 1, "min": 1, "max": 3, "value": 2 },
+                                        { "id": 2, "min": 4, "max": 7, "value": 5 },
+                                        { "id": 3, "min": 8, "max": 10, "value": 7 },
+                                        { "id": 4, "min": 11, "max": 13, "value": 9 },
+                                        { "id": 5, "min": 14, "max": 16, "value": 12 },
+                                        { "id": 6, "min": 17, "max": 19, "value": 14 },
+                                        { "id": 7, "min": 20, "max": 21, "value": 16 }
+                                    ]
+                                },
+                                {
+                                    "id": "perception",,
+                                    "value": 7,
+                                    "calcule": [
+                                        { "id": 1, "min": 1, "max": 3, "value": 2 },
+                                        { "id": 2, "min": 4, "max": 7, "value": 5 },
+                                        { "id": 3, "min": 8, "max": 10, "value": 7 },
+                                        { "id": 4, "min": 11, "max": 13, "value": 9 },
+                                        { "id": 5, "min": 14, "max": 16, "value": 12 },
+                                        { "id": 6, "min": 17, "max": 19, "value": 14 },
+                                        { "id": 7, "min": 20, "max": 21, "value": 16 }
+                                    ]
+                                },
+                                {
+                                    "id": "chance",,
+                                    "value": 7,
+                                    "calcule": [
+                                        { "id": 1, "min": 1, "max": 3, "value": 2 },
+                                        { "id": 2, "min": 4, "max": 7, "value": 5 },
+                                        { "id": 3, "min": 8, "max": 10, "value": 7 },
+                                        { "id": 4, "min": 11, "max": 13, "value": 9 },
+                                        { "id": 5, "min": 14, "max": 16, "value": 12 },
+                                        { "id": 6, "min": 17, "max": 19, "value": 14 },
+                                        { "id": 7, "min": 20, "max": 21, "value": 16 }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "elvire",
+                            "cp": [
+                                {
+                                    "id": "intelligence",
+                                    "value": 7,
+                                    "calcule": [
+                                        { "id": 1, "min": 1, "max": 3, "value": 2 },
+                                        { "id": 2, "min": 4, "max": 7, "value": 5 },
+                                        { "id": 3, "min": 8, "max": 10, "value": 7 },
+                                        { "id": 4, "min": 11, "max": 13, "value": 9 },
+                                        { "id": 5, "min": 14, "max": 16, "value": 12 },
+                                        { "id": 6, "min": 17, "max": 19, "value": 14 },
+                                        { "id": 7, "min": 20, "max": 21, "value": 16 }
+                                    ]
+                                },
+                                {
+                                    "id": "charisme",,
+                                    "value": 7,
+                                    "calcule": [
+                                        { "id": 1, "min": 1, "max": 3, "value": 2 },
+                                        { "id": 2, "min": 4, "max": 7, "value": 5 },
+                                        { "id": 3, "min": 8, "max": 10, "value": 7 },
+                                        { "id": 4, "min": 11, "max": 13, "value": 9 },
+                                        { "id": 5, "min": 14, "max": 16, "value": 12 },
+                                        { "id": 6, "min": 17, "max": 19, "value": 14 },
+                                        { "id": 7, "min": 20, "max": 21, "value": 16 }
+                                    ]
+                                },
+                                {
+                                    "id": "agilite",,
+                                    "value": 7,
+                                    "calcule": [
+                                        { "id": 1, "min": 1, "max": 3, "value": 2 },
+                                        { "id": 2, "min": 4, "max": 7, "value": 5 },
+                                        { "id": 3, "min": 8, "max": 10, "value": 7 },
+                                        { "id": 4, "min": 11, "max": 13, "value": 9 },
+                                        { "id": 5, "min": 14, "max": 16, "value": 12 },
+                                        { "id": 6, "min": 17, "max": 19, "value": 14 },
+                                        { "id": 7, "min": 20, "max": 21, "value": 16 }
+                                    ]
+                                },
+                                {
+                                    "id": "initiative",,
+                                    "value": 7,
+                                    "calcule": [
+                                        { "id": 1, "min": 1, "max": 3, "value": 2 },
+                                        { "id": 2, "min": 4, "max": 7, "value": 5 },
+                                        { "id": 3, "min": 8, "max": 10, "value": 7 },
+                                        { "id": 4, "min": 11, "max": 13, "value": 9 },
+                                        { "id": 5, "min": 14, "max": 16, "value": 12 },
+                                        { "id": 6, "min": 17, "max": 19, "value": 14 },
+                                        { "id": 7, "min": 20, "max": 21, "value": 16 }
+                                    ]
+                                },
+                                {
+                                    "id": "constitution",,
+                                    "value": 7,
+                                    "calcule": [
+                                        { "id": 1, "min": 1, "max": 3, "value": 2 },
+                                        { "id": 2, "min": 4, "max": 7, "value": 5 },
+                                        { "id": 3, "min": 8, "max": 10, "value": 7 },
+                                        { "id": 4, "min": 11, "max": 13, "value": 9 },
+                                        { "id": 5, "min": 14, "max": 16, "value": 12 },
+                                        { "id": 6, "min": 17, "max": 19, "value": 14 },
+                                        { "id": 7, "min": 20, "max": 21, "value": 16 }
+                                    ]
+                                },
+                                {
+                                    "id": "force",,
+                                    "value": 7,
+                                    "calcule": [
+                                        { "id": 1, "min": 1, "max": 3, "value": 2 },
+                                        { "id": 2, "min": 4, "max": 7, "value": 5 },
+                                        { "id": 3, "min": 8, "max": 10, "value": 7 },
+                                        { "id": 4, "min": 11, "max": 13, "value": 9 },
+                                        { "id": 5, "min": 14, "max": 16, "value": 12 },
+                                        { "id": 6, "min": 17, "max": 19, "value": 14 },
+                                        { "id": 7, "min": 20, "max": 21, "value": 16 }
+                                    ]
+                                },
+                                {
+                                    "id": "perception",,
+                                    "value": 7,
+                                    "calcule": [
+                                        { "id": 1, "min": 1, "max": 3, "value": 2 },
+                                        { "id": 2, "min": 4, "max": 7, "value": 5 },
+                                        { "id": 3, "min": 8, "max": 10, "value": 7 },
+                                        { "id": 4, "min": 11, "max": 13, "value": 9 },
+                                        { "id": 5, "min": 14, "max": 16, "value": 12 },
+                                        { "id": 6, "min": 17, "max": 19, "value": 14 },
+                                        { "id": 7, "min": 20, "max": 21, "value": 16 }
+                                    ]
+                                },
+                                {
+                                    "id": "chance",,
+                                    "value": 7,
+                                    "calcule": [
+                                        { "id": 1, "min": 1, "max": 3, "value": 2 },
+                                        { "id": 2, "min": 4, "max": 7, "value": 5 },
+                                        { "id": 3, "min": 8, "max": 10, "value": 7 },
+                                        { "id": 4, "min": 11, "max": 13, "value": 9 },
+                                        { "id": 5, "min": 14, "max": 16, "value": 12 },
+                                        { "id": 6, "min": 17, "max": 19, "value": 14 },
+                                        { "id": 7, "min": 20, "max": 21, "value": 16 }
+                                    ]
+                                }
+                            ]
+                        }
+                        
+                    ],                    
+                    
+                    "joueurs": [
+                        {
+                            "id": 1,
+                            "login": "miniraist",
+                            "mdp": "mdp",
+                            "statut": "admin",
+                            "pjs":[
+                                {
+                                    "id": 1,
+                                    "nom": "Miniraist",
+                                    "sexe": "homme",
+                                    "peuple": "Gnome",
+                                    "caste": "Paladin Jet-Kaï",
+                                    "corpulence": 2,
+                                    "origine": "Petaoushnok",
+                                    "cp": [
+                                        {
+                                            "id": "intelligence",
+                                            "value": 12,
+                                            "cs": [
+                                                { "id": "apprentissage", "value": 10 },
+                                                { "id": "marchandage", "value": 10 },
+                                                { "id": "premier_soin", "value": 10 },
+                                                { "id": "technique", "value": 10 }
+                                            ]
+                                        },
+                                        {
+                                            "id": "charisme",
+                                            "value": 12,
+                                            "cs": [
+                                                { "id": "courage", "value": 10 },
+                                                { "id": "sagesse", "value": 10 },
+                                                { "id": "compassion", "value": 10 },
+                                                { "id": "sang_froid", "value": 10 }
+                                            ]
+                                        },
+                                        {
+                                            "id": "agilite",
+                                            "value": 12,
+                                            "cs": [
+                                                { "id": "course", "value": 10 },
+                                                { "id": "escalade", "value": 10 },
+                                                { "id": "natation", "value": 10 },
+                                                { "id": "saut", "value": 10 }
+                                            ]
+                                        },
+                                        {
+                                            "id": "initiative",
+                                            "value": 12,
+                                            "cs": [
+                                                { "id": "esquive", "value": 10 },
+                                                { "id": "reflexe", "value": 10 },
+                                                { "id": "discretion", "value": 10 },
+                                                { "id": "chapardage", "value": 10 }
+                                            ]
+                                        },
+                                        {
+                                            "id": "constitution",
+                                            "value": 12,
+                                            "cs": [
+                                                { "id": "res_maladie", "value": 10 },
+                                                { "id": "res_poisons", "value": 10 },
+                                                { "id": "res_alcool", "value": 10 }
+                                            ]
+                                        },
+                                        {
+                                            "id": "force",
+                                            "value": 12,
+                                            "cs": [
+                                                { "id": "puissance", "value": 10 },
+                                                { "id": "mains_nues", "value": 10 },
+                                                { "id": "arme", "value": 10 },
+                                                { "id": "armes", "value": 10 }
+                                            ]
+                                        },
+                                        {
+                                            "id": "perception",
+                                            "value": 12,
+                                            "cs": [
+                                                { "id": "lancer_objet", "value": 10 },
+                                                { "id": "jet", "value": 10 },
+                                                { "id": "tir", "value": 10 }
+                                            ]
+                                        },
+                                        {
+                                            "id": "chance",
+                                            "value": 12,
+                                            "cs": [
+                                                { "id": "prière", "value": 10 },
+                                                { "id": "magie_sauvage", "value": 10 },
+                                                { "id": "res_magie", "value": 10 }
+                                            ]
+                                        }
+                                    ],
+                                    "talents": [
+                                        { "id": "" }
+                                    ],
+                                    "tares": [
+                                        { "id": "" }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "tapage":[
+                {
+
+                }
+            ]
+        }
+    ]
+    
+}

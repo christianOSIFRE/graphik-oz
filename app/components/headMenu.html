@@ -1,0 +1,25 @@
+<nav class="navbar navbar-default" role="navigation">   
+    <div class="navbar-header">   
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="http://localhost/AngularJS_xampp/#">Graphik OZ</a>
+    </div>
+    <div class="collapse navbar-collapse">  
+            <ul class="nav navbar-nav">
+                <li ng-repeat="m in headMenu" class="dropdown">
+                    <a ng-href="{{m.url}}" data-toggle="dropdown">{{m.label}}</a>
+                    <ul ng-if="m.element" class="dropdown-menu" role="menu">
+                        <li ng-repeat="e in m.element">
+                            <a ng-href="e.url">{{e.label}}</a>
+                        </li>
+                    </ul>
+                </li>
+
+            </ul>
+
+    </div>
+</nav>
+
